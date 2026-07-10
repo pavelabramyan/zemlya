@@ -556,30 +556,31 @@ button, select, input { font: inherit; }
   letter-spacing: 0.06em;
 }
 
-/* Маркеры как на Авито */
+/* Маркеры как на Авито — без CSS transform на пине (конфликт с зумом Leaflet) */
 .avito-marker-wrap {
   background: transparent !important;
   border: none !important;
 }
 .avito-pin {
   position: relative;
-  transform: translate(-50%, calc(-100% - 6px));
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  padding: 6px 10px;
+  width: 100%;
+  height: 28px;
+  box-sizing: border-box;
+  padding: 0 10px;
   border-radius: 6px;
   background: #fff;
   color: #000;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1;
   white-space: nowrap;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.28);
   border: none;
   cursor: pointer;
-  transition: transform 0.12s ease, background 0.12s ease, color 0.12s ease;
 }
 .avito-pin::after {
   content: "";
@@ -589,7 +590,8 @@ button, select, input { font: inherit; }
   width: 10px;
   height: 10px;
   background: inherit;
-  transform: translateX(-50%) rotate(45deg);
+  margin-left: -5px;
+  transform: rotate(45deg);
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.12);
   z-index: -1;
 }
@@ -597,10 +599,63 @@ button, select, input { font: inherit; }
 .avito-pin.is-active {
   background: #00a046;
   color: #fff;
-  transform: translate(-50%, calc(-100% - 6px)) scale(1.04);
   z-index: 20;
 }
 .price-marker { display: none; }
+
+/* Кнопки map.ru — заметные */
+.btn-mapru {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 10px;
+  padding: 9px 14px;
+  border-radius: 10px;
+  background: #0b5fff;
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 0.88rem;
+  line-height: 1.2;
+  text-decoration: none;
+  border: 1px solid #0847c7;
+  box-shadow: 0 4px 12px rgba(11, 95, 255, 0.28);
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+.btn-mapru:hover {
+  background: #0847c7;
+  transform: translateY(-1px);
+}
+.btn-mapru--compact {
+  margin-top: 8px;
+  padding: 7px 10px;
+  font-size: 0.78rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+.btn-mapru--card {
+  display: flex;
+  width: 100%;
+  margin: 10px 0 12px;
+  padding: 12px 14px;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+}
+.btn-mapru-outline {
+  background: #eef4ff;
+  color: #0b5fff !important;
+  border: 1.5px solid #0b5fff;
+  font-weight: 700;
+}
+.btn-mapru-outline:hover {
+  background: #0b5fff;
+  color: #fff !important;
+}
+.map-card .btn-mapru-outline {
+  background: #eef4ff;
+  color: #0b5fff !important;
+  border-color: #0b5fff;
+}
 
 .leaflet-container {
   font: inherit;
@@ -933,6 +988,11 @@ body.modal-open .leaflet-control {
   }
   .avito-pin {
     font-size: 12px;
-    padding: 5px 8px;
+    height: 26px;
+    padding: 0 8px;
+  }
+  .btn-mapru--card {
+    padding: 11px 12px;
+    font-size: 0.9rem;
   }
 }

@@ -58,6 +58,7 @@
     specs: document.getElementById("map-card-specs"),
     desc: document.getElementById("map-card-desc"),
     mapRu: document.getElementById("map-card-mapru"),
+    mapRuBottom: document.getElementById("map-card-mapru-bottom"),
     note: document.getElementById("map-card-note"),
     statCount: document.getElementById("stat-count"),
     statRegions: document.getElementById("stat-regions"),
@@ -78,12 +79,21 @@
 
   function priceIcon(plot, active = false) {
     const label = avitoMoney(plot.cadastre_cost_num);
+    // Ширина по тексту — без CSS transform, иначе пины «ездят» при зуме Leaflet.
+    const w = Math.max(56, Math.round(label.length * 7.2 + 22));
+    const h = 28;
+    const tip = 6;
     return L.divIcon({
       className: "avito-marker-wrap",
       html: `<div class="avito-pin${active ? " is-active" : ""}"><span>${label}</span></div>`,
-      iconSize: [1, 1],
-      iconAnchor: [40, 28],
+      iconSize: [w, h + tip],
+      iconAnchor: [w / 2, h + tip],
     });
+  }
+
+  function mapRuLink(plot, extraClass = "") {
+    const href = mapRuUrl(plot);
+    return `<a class="btn-mapru ${extraClass}" href="${href}" target="_blank" rel="noopener" data-mapru>Кадастр на map.ru</a>`;
   }
 
   /** Ссылка на участок на map.ru (публичная кадастровая карта). */
@@ -168,6 +178,7 @@
             <h3>${titleOf(p)} ${est}</h3>
             <div class="side-meta">${(p.region || "").trim() || "Россия"} · ${p.cadastre}</div>
             <div class="price-tag">${money(p.cadastre_cost_num)}</div>
+            ${mapRuLink(p, "btn-mapru--compact")}
           </div>
         </article>`;
       })
@@ -188,6 +199,7 @@
             ${est}
             <div class="card-meta">${(p.region || "").trim() || "Россия"}<br>${p.cadastre}</div>
             <div class="price-tag">${money(p.cadastre_cost_num)}</div>
+            ${mapRuLink(p)}
           </div>
         </article>`;
       })
@@ -202,6 +214,7 @@
     els.photo.src = plot.photos?.[0]?.url || "";
     els.photo.alt = `Спутник: ${titleOf(plot)}`;
     els.mapRu.href = mapRuUrl(plot);
+    if (els.mapRuBottom) els.mapRuBottom.href = mapRuUrl(plot);
 
     const areaText = plot.area_sotka
       ? `${String(plot.area_sotka).replace(/\.0$/, "")} сот. (${Math.round(plot.area_m2)} м²)${plot.area_estimated ? " · ориентир." : ""}`
@@ -311,6 +324,7 @@
   }
 
   document.addEventListener("click", (e) => {
+    if (e.target.closest("[data-mapru], a[href^='https://map.ru']")) return;
     const card = e.target.closest("[data-id]");
     if (card) {
       const plot = plots.find((p) => p.cadastre === card.dataset.id);
