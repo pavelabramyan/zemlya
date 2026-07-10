@@ -4,23 +4,23 @@
     return `${Math.round(Number(n)).toLocaleString("ru-RU")} ₽`;
   };
 
-  // Как на Авито: «250 000 ₽» / «1,2 млн ₽»
   const avitoMoney = (n) => {
     if (n == null || Number.isNaN(Number(n))) return "—";
     const v = Math.round(Number(n));
     if (v >= 1_000_000) {
       const m = v / 1_000_000;
-      const s = m >= 10 ? m.toFixed(1) : m.toFixed(1);
-      return `${s.replace(".0", "").replace(".", ",")} млн ₽`;
+      return `${m.toFixed(1).replace(".0", "").replace(".", ",")} млн ₽`;
     }
     return `${v.toLocaleString("ru-RU")} ₽`;
   };
 
   const placeLabel = (p) =>
-    p.place || p.settlement || p.geo_name || p.region || "Участок";
+    p.settlement || p.place || p.geo_name || p.region || "Участок";
 
   const titleOf = (p) => {
-    const area = p.area_sotka ? `${p.area_sotka} сот.` : "участок";
+    const area = p.area_sotka
+      ? `${String(p.area_sotka).replace(/\.0$/, "")} сот.`
+      : "участок";
     return `${area} · ${placeLabel(p)}`;
   };
 
@@ -28,24 +28,22 @@
   let map;
   let markers = new Map();
   let activeId = null;
+  let plotLayer = null;
 
   const els = {
     region: document.getElementById("filter-region"),
     sort: document.getElementById("filter-sort"),
     sideList: document.getElementById("side-list"),
     catalog: document.getElementById("catalog-grid"),
-    modal: document.getElementById("plot-modal"),
-    photo: document.getElementById("modal-photo"),
-    thumbs: document.getElementById("modal-thumbs"),
-    regionLabel: document.getElementById("modal-region"),
-    title: document.getElementById("modal-title"),
-    price: document.getElementById("modal-price"),
-    specs: document.getElementById("modal-specs"),
-    desc: document.getElementById("modal-desc"),
-    cta: document.getElementById("modal-cta"),
-    nspd: document.getElementById("modal-nspd"),
-    form: document.getElementById("lead-form"),
-    formNote: document.getElementById("form-note"),
+    card: document.getElementById("map-card"),
+    cardClose: document.getElementById("map-card-close"),
+    photo: document.getElementById("map-card-photo"),
+    regionLabel: document.getElementById("map-card-region"),
+    title: document.getElementById("map-card-title"),
+    price: document.getElementById("map-card-price"),
+    specs: document.getElementById("map-card-specs"),
+    desc: document.getElementById("map-card-desc"),
+    nspd: document.getElementById("map-card-nspd"),
     statCount: document.getElementById("stat-count"),
     statRegions: document.getElementById("stat-regions"),
     statValue: document.getElementById("stat-value"),
@@ -73,6 +71,46 @@
     });
   }
 
+  /** Приближённый контур участка по площади (квадрат вокруг точки). */
+  function plotPolygon(plot) {
+    const lat = Number(plot.lat);
+    const lon = Number(plot.lon);
+    const area = Math.max(Number(plot.area_m2) || 1000, 400);
+    const side = Math.sqrt(area);
+    const dLat = side / 111320 / 2;
+    const dLon = side / (111320 * Math.cos((lat * Math.PI) / 180)) / 2;
+    // чуть вытянутый прямоугольник «как участок»
+    const kx = 1.15;
+    const ky = 0.9;
+    return [
+      [lat - dLat * ky, lon - dLon * kx],
+      [lat - dLat * ky, lon + dLon * kx],
+      [lat + dLat * ky, lon + dLon * kx],
+      [lat + dLat * ky, lon - dLon * kx],
+    ];
+  }
+
+  function clearPlotHighlight() {
+    if (plotLayer) {
+      map.removeLayer(plotLayer);
+      plotLayer = null;
+    }
+  }
+
+  function showPlotHighlight(plot) {
+    clearPlotHighlight();
+    const ring = plotPolygon(plot);
+    plotLayer = L.polygon(ring, {
+      color: "#c9a400",
+      weight: 3,
+      opacity: 1,
+      fillColor: "#ffe566",
+      fillOpacity: 0.45,
+      className: "plot-highlight",
+    }).addTo(map);
+    return plotLayer;
+  }
+
   function syncMarkers() {
     const list = filtered();
     const visible = new Set(list.map((p) => p.cadastre));
@@ -85,10 +123,13 @@
         map.removeLayer(marker);
       }
     });
-    if (list.length) {
-      const bounds = L.latLngBounds(list.map((p) => [p.lat, p.lon]));
-      map.fitBounds(bounds.pad(0.18), { maxZoom: 11 });
-    }
+  }
+
+  function fitAll() {
+    const list = filtered();
+    if (!list.length) return;
+    const bounds = L.latLngBounds(list.map((p) => [p.lat, p.lon]));
+    map.fitBounds(bounds.pad(0.18), { maxZoom: 6 });
   }
 
   function renderSide() {
@@ -127,67 +168,53 @@
       .join("");
   }
 
-  function openModal(plot) {
-    activeId = plot.cadastre;
-    syncMarkers();
-    renderSide();
-
-    const photos = plot.photos || [];
-    let idx = 0;
-    const showPhoto = (i) => {
-      idx = i;
-      els.photo.src = photos[i]?.url || "";
-      els.photo.alt = photos[i]?.caption || "Фото участка";
-      [...els.thumbs.children].forEach((btn, j) => btn.classList.toggle("active", j === i));
-    };
-
-    els.thumbs.innerHTML = photos
-      .map(
-        (ph, i) =>
-          `<button type="button" data-i="${i}" class="${i === 0 ? "active" : ""}"><img src="${ph.url}" alt="${ph.caption || ""}" /></button>`
-      )
-      .join("");
-    els.thumbs.onclick = (e) => {
-      const btn = e.target.closest("button[data-i]");
-      if (!btn) return;
-      showPhoto(Number(btn.dataset.i));
-    };
-    showPhoto(0);
-
+  function fillMapCard(plot) {
     els.regionLabel.textContent = (plot.region || plot.geo_name || "Россия").trim();
     els.title.textContent = titleOf(plot);
     els.price.textContent = money(plot.cadastre_cost_num);
     els.desc.textContent = plot.ad || "";
+    els.photo.src = plot.photos?.[0]?.url || "";
+    els.photo.alt = `Спутник: ${titleOf(plot)}`;
     els.nspd.href = plot.nspd_url || plot.pkk_url || "#";
-    els.cta.href = "tel:+79295154970";
-
     els.specs.innerHTML = [
       ["Кадастровый номер", plot.cadastre],
-      ["Площадь", plot.area_sotka ? `${plot.area_sotka} сот. (${Math.round(plot.area_m2)} м²)` : "—"],
+      ["Площадь", plot.area_sotka ? `${String(plot.area_sotka).replace(/\.0$/, "")} сот. (${Math.round(plot.area_m2)} м²)` : "—"],
       ["Кадастровая стоимость", money(plot.cadastre_cost_num)],
       ["Координаты", `${Number(plot.lat).toFixed(5)}, ${Number(plot.lon).toFixed(5)}`],
     ]
       .map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`)
       .join("");
-
-    els.modal.hidden = false;
-    document.body.classList.add("modal-open");
-    document.body.style.overflow = "hidden";
-
-    const marker = markers.get(plot.cadastre);
-    if (marker) map.panTo(marker.getLatLng(), { animate: true });
   }
 
-  function closeModal() {
-    els.modal.hidden = true;
-    document.body.classList.remove("modal-open");
-    document.body.style.overflow = "";
+  function openPlot(plot) {
+    activeId = plot.cadastre;
+    syncMarkers();
+    renderSide();
+    fillMapCard(plot);
+    els.card.hidden = false;
+    document.getElementById("map")?.scrollIntoView({ behavior: "smooth", block: "start" });
+
+    const layer = showPlotHighlight(plot);
+    const bounds = layer.getBounds().pad(0.55);
+    map.flyToBounds(bounds, {
+      duration: 0.85,
+      maxZoom: 17,
+    });
+  }
+
+  function closePlot() {
+    activeId = null;
+    els.card.hidden = true;
+    clearPlotHighlight();
+    syncMarkers();
+    renderSide();
   }
 
   function refresh() {
     syncMarkers();
     renderSide();
     renderCatalog();
+    if (!activeId) fitAll();
   }
 
   function initMap() {
@@ -197,7 +224,6 @@
       attributionControl: false,
     }).setView([58.5, 70], 3);
 
-    // Тайлы 2ГИС (как у 2GIS)
     L.tileLayer("https://tile{s}.maps.2gis.com/tiles?x={x}&y={y}&z={z}", {
       subdomains: ["0", "1", "2", "3"],
       maxZoom: 18,
@@ -209,9 +235,15 @@
         icon: priceIcon(p),
         riseOnHover: true,
       });
-      marker.on("click", () => openModal(p));
+      marker.on("click", () => openPlot(p));
       markers.set(p.cadastre, marker);
       marker.addTo(map);
+    });
+
+    map.on("click", (e) => {
+      // клик по пустой карте закрывает карточку, если не попали в полигон
+      if (plotLayer && plotLayer.getBounds().contains(e.latlng)) return;
+      if (activeId) closePlot();
     });
   }
 
@@ -237,31 +269,26 @@
 
   document.addEventListener("click", (e) => {
     const card = e.target.closest("[data-id]");
-    if (card && !e.target.closest(".modal")) {
+    if (card) {
       const plot = plots.find((p) => p.cadastre === card.dataset.id);
-      if (plot) openModal(plot);
+      if (plot) openPlot(plot);
     }
-    if (e.target.matches("[data-close]")) closeModal();
+  });
+
+  els.cardClose?.addEventListener("click", (e) => {
+    e.stopPropagation();
+    closePlot();
   });
 
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") closeModal();
+    if (e.key === "Escape") closePlot();
   });
 
-  els.region.addEventListener("change", refresh);
+  els.region.addEventListener("change", () => {
+    closePlot();
+    refresh();
+  });
   els.sort.addEventListener("change", refresh);
-
-  if (els.form) {
-    els.form.addEventListener("submit", (e) => {
-      e.preventDefault();
-      const data = new FormData(els.form);
-      const plot = data.get("plot") || "";
-      const text = encodeURIComponent(
-        `Здравствуйте! Интересует участок ${plot || "с сайта ЗЕМЛЯ"}. Имя: ${data.get("name")}`
-      );
-      window.location.href = `https://t.me/pavelabramyan?text=${text}`;
-    });
-  }
 
   fetch("data/plots.json")
     .then((r) => r.json())
