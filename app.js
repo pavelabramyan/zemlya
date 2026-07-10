@@ -233,6 +233,8 @@
       duration: 0.85,
       maxZoom: 17,
     });
+    map.once("moveend", () => map.invalidateSize());
+    requestAnimationFrame(() => map.invalidateSize());
   }
 
   function closePlot() {
@@ -277,6 +279,9 @@
       if (plotLayer && plotLayer.getBounds().contains(e.latlng)) return;
       if (activeId) closePlot();
     });
+
+    window.addEventListener("resize", () => map.invalidateSize());
+    setTimeout(() => map.invalidateSize(), 200);
   }
 
   function fillRegions() {
