@@ -400,6 +400,8 @@ button, select, input { font: inherit; }
   border-color: var(--line);
   color: var(--ink);
 }
+.map-card-call .call-short { display: none; }
+.map-card-call .call-full { display: inline; }
 
 .map-side {
   background: var(--card);
@@ -752,15 +754,36 @@ body.modal-open .leaflet-control {
   .steps {
     grid-template-columns: 1fr;
   }
-  .map-side { max-height: 280px; }
-  .map-stage,
-  #leaflet-map { min-height: 520px; }
-  .map-card {
-    max-width: none;
-    max-height: 55%;
+  .map-head {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
   }
+  .map-filters {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+  }
+  .map-side { max-height: 260px; }
+  .map-stage,
+  #leaflet-map { min-height: 62vh; }
+  .map-card {
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    max-width: none;
+    max-height: min(58%, 420px);
+    border-radius: 14px;
+  }
+  .map-card-media img { height: 110px; }
+  .map-card .specs { grid-template-columns: 1fr; }
+  .map-card-actions { flex-direction: column; }
+  .map-card .btn { width: 100%; justify-content: center; text-align: center; }
+  .map-card-call .call-short { display: inline; }
+  .map-card-call .call-full { display: none; }
   .nav a:not(.nav-cta):not(.nav-tg):not(.nav-phone) { display: none; }
-  .hero-stats { grid-template-columns: 1fr 1fr 1fr; }
+  .hero-stats { grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
 }
 
 @media (min-width: 961px) {
@@ -773,10 +796,143 @@ body.modal-open .leaflet-control {
 }
 
 @media (max-width: 640px) {
+  .topbar {
+    padding: 10px 12px;
+    gap: 8px;
+  }
+  .brand {
+    font-size: 0.95rem;
+    flex-shrink: 0;
+  }
+  .nav {
+    gap: 6px;
+    flex-wrap: nowrap;
+    min-width: 0;
+  }
+  .nav-phone { display: none; }
+  .nav-cta,
+  .nav-tg {
+    padding: 8px 10px;
+    font-size: 0.82rem;
+    white-space: nowrap;
+  }
   .topbar, .map-section, .catalog, .how, .contact, .footer, .hero-inner {
     padding-left: 16px;
     padding-right: 16px;
   }
-  .hero-stats { grid-template-columns: 1fr; }
+  .hero-bg {
+    background:
+      linear-gradient(180deg, rgba(28, 36, 28, 0.35) 0%, rgba(28, 36, 28, 0.72) 55%, rgba(28, 36, 28, 0.88) 100%),
+      url("https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=37.4,55.55,37.85,55.85&bboxSR=4326&imageSR=4326&size=1600,900&format=jpg&f=image") center/cover no-repeat;
+  }
+  .map-section,
+  .catalog,
+  .how,
+  .contact {
+    padding-top: 36px;
+    padding-bottom: 40px;
+  }
+  .hero-inner {
+    padding-bottom: 28px;
+  }
+  .hero h1 {
+    font-size: clamp(2.6rem, 14vw, 3.6rem);
+    line-height: 0.95;
+  }
+  .hero-lead {
+    font-size: 0.98rem;
+    max-width: 28ch;
+  }
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .hero-actions .btn {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+  .hero-stats {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .map-section h2 {
+    font-size: 1.55rem;
+  }
+  .map-stage,
+  #leaflet-map {
+    min-height: 58vh;
+    border-radius: 14px;
+  }
+  .map-card {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: auto;
+    width: 100%;
+    max-width: none;
+    max-height: min(48vh, 400px);
+    border-radius: 18px 18px 0 0;
+    box-shadow: 0 -10px 32px rgba(0,0,0,0.28);
+    z-index: 1200;
+  }
+  .map-card-media img { height: 100px; }
+  .map-card .specs {
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+  }
+  .map-card .specs div {
+    padding: 6px 8px;
+  }
+  .map-card-note {
+    display: none;
+  }
+  .map-card-desc {
+    -webkit-line-clamp: 2;
+  }
+  #map,
+  .map-section {
+    scroll-margin-top: 72px;
+  }
+  .map-card-body {
+    padding: 12px 14px 16px;
+  }
+  .map-card-body h3 {
+    font-size: 1.05rem;
+  }
+  .map-card-price {
+    font-size: 1.2rem;
+    margin: 6px 0 10px;
+  }
+  .map-card-desc {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .map-filters {
+    grid-template-columns: 1fr;
+  }
+  .side-item {
+    grid-template-columns: 88px 1fr;
+  }
+  .side-item img {
+    height: 72px;
+  }
+  .catalog-grid {
+    grid-template-columns: 1fr;
+  }
   .contact-card { padding: 24px 18px; }
+  .contact-actions {
+    flex-direction: column;
+  }
+  .contact-actions .btn {
+    width: 100%;
+    text-align: center;
+  }
+  .avito-pin {
+    font-size: 12px;
+    padding: 5px 8px;
+  }
 }
