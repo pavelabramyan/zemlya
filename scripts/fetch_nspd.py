@@ -58,7 +58,7 @@ def fetch(url: str, proxy: str | None, timeout: int = 25) -> bytes:
     if proxy:
         with opener.open(req, timeout=timeout) as r:
             return r.read()
-    ctx = ssl.create_default_context()
+    ctx = ssl._create_unverified_context()  # VPN MITM / корпоративные прокси
     with urllib.request.urlopen(req, timeout=timeout, context=ctx) as r:
         return r.read()
 
