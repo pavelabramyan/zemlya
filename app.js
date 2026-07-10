@@ -161,11 +161,15 @@
       if (input) input.value = plot.cadastre;
     };
 
+    const perSotka =
+      plot.cadastre_cost_num && plot.area_sotka
+        ? money(plot.cadastre_cost_num / plot.area_sotka)
+        : "—";
     els.specs.innerHTML = [
       ["Кадастровый номер", plot.cadastre],
       ["Площадь", plot.area_sotka ? `${plot.area_sotka} сот. (${plot.area_m2} м²)` : "—"],
       ["Кадастровая стоимость", money(plot.cadastre_cost_num)],
-      ["Цена за сотку (кадастр)", plot.price_sotka ? `${plot.price_sotka} ₽` : "—"],
+      ["Цена за сотку (кадастр)", perSotka],
       ["Статус", plot.status || "—"],
       ["Аренда в год", plot.rent_year ? money(Number(String(plot.rent_year).replace(",", "."))) : "—"],
       ["Координаты", `${plot.lat.toFixed(5)}, ${plot.lon.toFixed(5)}`],
