@@ -27,8 +27,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=57.783,63.617&zoom=16&size=800x500&markers=57.783,63.617,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=63.592,57.758,63.641999999999996,57.808&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=66%3A11%3A4901001%3A668",
@@ -66,8 +66,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=52.20349,107.6429&zoom=16&size=800x500&markers=52.20349,107.6429,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=107.61789999999999,52.178490000000004,107.6679,52.22849&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=03%3A16%3A540101%3A1477",
@@ -105,8 +105,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=52.20049,107.6429&zoom=16&size=800x500&markers=52.20049,107.6429,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=107.61789999999999,52.17549,107.6679,52.22549&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=03%3A16%3A340159%3A39",
@@ -144,8 +144,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=52.11944,107.27083&zoom=16&size=800x500&markers=52.11944,107.27083,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=107.24583,52.09444,107.29583000000001,52.144439999999996&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=03%3A16%3A510107%3A360",
@@ -183,8 +183,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=52.14182,107.44054&zoom=16&size=800x500&markers=52.14182,107.44054,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=107.41554,52.116820000000004,107.46554,52.16682&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=03%3A16%3A310102%3A188",
@@ -222,8 +222,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=57.43284,60.06172&zoom=16&size=800x500&markers=57.43284,60.06172,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=60.03672,57.40784,60.08672,57.45784&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=66%3A49%3A0503025%3A316",
@@ -261,8 +261,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=57.42984,60.06172&zoom=16&size=800x500&markers=57.42984,60.06172,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=60.03672,57.40484,60.08672,57.45484&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=66%3A49%3A0503025%3A318",
@@ -300,8 +300,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=49.81441,129.81276&zoom=16&size=800x500&markers=49.81441,129.81276,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=129.78776,49.789410000000004,129.83776,49.83941&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A11%3A010834%3A13",
@@ -339,8 +339,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=49.81141,129.81276&zoom=16&size=800x500&markers=49.81141,129.81276,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=129.78776,49.786410000000004,129.83776,49.83641&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A11%3A010940%3A28",
@@ -378,8 +378,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=55.45,123.55&zoom=16&size=800x500&markers=55.45,123.55,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=123.52499999999999,55.425000000000004,123.575,55.475&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A26%3A040900%3A846",
@@ -417,8 +417,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=54.92,124.92&zoom=16&size=800x500&markers=54.92,124.92,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=124.895,54.895,124.94500000000001,54.945&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A26%3A031100%3A418",
@@ -456,8 +456,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=57.8163,92.1632&zoom=16&size=800x500&markers=57.8163,92.1632,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=92.1382,57.7913,92.18820000000001,57.8413&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=24%3A31%3A1901005%3A194",
@@ -495,8 +495,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.9515,60.05&zoom=16&size=800x500&markers=56.9515,60.05,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=60.025,56.926500000000004,60.074999999999996,56.9765&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=66%3A12%3A1602007%3A161",
@@ -534,8 +534,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.950463525491564,60.05142658477444&zoom=16&size=800x500&markers=56.950463525491564,60.05142658477444,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=60.02642658477444,56.925463525491566,60.07642658477444,56.97546352549156&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=66%3A12%3A1602007%3A190",
@@ -573,8 +573,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.94878647450844,60.05088167787844&zoom=16&size=800x500&markers=56.94878647450844,60.05088167787844,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=60.02588167787844,56.92378647450844,60.075881677878435,56.97378647450844&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=66%3A12%3A1602007%3A175",
@@ -612,8 +612,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.94878647450844,60.04911832212156&zoom=16&size=800x500&markers=56.94878647450844,60.04911832212156,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=60.02411832212156,56.92378647450844,60.074118322121556,56.97378647450844&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=66%3A12%3A1602007%3A179",
@@ -651,8 +651,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.950463525491564,60.048573415225555&zoom=16&size=800x500&markers=56.950463525491564,60.048573415225555,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=60.023573415225556,56.925463525491566,60.07357341522555,56.97546352549156&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=66%3A12%3A1602007%3A184",
@@ -690,8 +690,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=51.1215,128.38&zoom=16&size=800x500&markers=51.1215,128.38,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=128.355,51.0965,128.405,51.146499999999996&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A19%3A011604%3A227",
@@ -729,8 +729,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=51.1185,128.38&zoom=16&size=800x500&markers=51.1185,128.38,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=128.355,51.0935,128.405,51.143499999999996&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A19%3A011603%3A520",
@@ -768,8 +768,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=53.11283,126.32979&zoom=16&size=800x500&markers=53.11283,126.32979,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=126.30479,53.087830000000004,126.35479000000001,53.13783&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A16%3A012969%3A25",
@@ -807,8 +807,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=52.9995,31.6023&zoom=16&size=800x500&markers=52.9995,31.6023,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=31.5773,52.9745,31.627299999999998,53.024499999999996&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=32%3A15%3A0260904%3A121",
@@ -846,8 +846,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=58.4,58.75&zoom=16&size=800x500&markers=58.4,58.75,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=58.725,58.375,58.775,58.425&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=59%3A17%3A0601004%3A56",
@@ -885,8 +885,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=48.70311,45.19611&zoom=16&size=800x500&markers=48.70311,45.19611,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=45.17111,48.678110000000004,45.221109999999996,48.72811&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=34%3A15%3A080202%3A1718",
@@ -924,8 +924,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=53.72096,127.27289&zoom=16&size=800x500&markers=53.72096,127.27289,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=127.24789,53.69596,127.29789000000001,53.74596&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A13%3A032520%3A5",
@@ -963,8 +963,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=53.71871,127.27418903810567&zoom=16&size=800x500&markers=53.71871,127.27418903810567,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=127.24918903810567,53.69371,127.29918903810568,53.74371&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A13%3A000000%3A352",
@@ -1002,8 +1002,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=53.71871,127.27159096189433&zoom=16&size=800x500&markers=53.71871,127.27159096189433,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=127.24659096189433,53.69371,127.29659096189434,53.74371&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A13%3A032520%3A4",
@@ -1026,7 +1026,7 @@
     "priority": "",
     "density": "",
     "rent_year": "",
-    "ad": "Продаётся право аренды земельного участка участок в локации Амурская область. Кадастровый номер 28:13:032520:3. Кадастровая стоимость 225 622 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "ad": "Продаётся право аренды земельного участка (под ИЖС/ЛПХ) в локации Амурская область. Кадастровый номер 28:13:032520:3. Кадастровая стоимость 225 622 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
     "lat": 53.719,
     "lon": 127.273,
     "geo_name": "Заречная Слобода",
@@ -1041,8 +1041,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=53.719,127.273&zoom=16&size=800x500&markers=53.719,127.273,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=127.24799999999999,53.694,127.298,53.744&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A13%3A032520%3A3",
@@ -1065,7 +1065,7 @@
     "priority": "",
     "density": "",
     "rent_year": "",
-    "ad": "Продаётся право аренды земельного участка участок в локации Амурская область. Кадастровый номер 28:13:032508:6. Кадастровая стоимость 233 995 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "ad": "Продаётся право аренды земельного участка (под ИЖС/ЛПХ) в локации Амурская область. Кадастровый номер 28:13:032508:6. Кадастровая стоимость 233 995 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
     "lat": 53.72,
     "lon": 127.274,
     "geo_name": "Заречная Слобода",
@@ -1080,8 +1080,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=53.72,127.274&zoom=16&size=800x500&markers=53.72,127.274,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=127.249,53.695,127.299,53.745&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A13%3A032508%3A6",
@@ -1104,7 +1104,7 @@
     "priority": "",
     "density": "",
     "rent_year": "",
-    "ad": "Продаётся право аренды земельного участка участок в локации Вологодская область. Кадастровый номер 35:16:0301018:362. Кадастровая стоимость 105 201 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "ad": "Продаётся право аренды земельного участка (под ИЖС/ЛПХ) в локации Вологодская область. Кадастровый номер 35:16:0301018:362. Кадастровая стоимость 105 201 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
     "lat": 59.22,
     "lon": 39.88,
     "geo_name": "Вологодская область",
@@ -1119,8 +1119,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=59.22,39.88&zoom=16&size=800x500&markers=59.22,39.88,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=39.855000000000004,59.195,39.905,59.245&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=35%3A16%3A0301018%3A362",
@@ -1143,7 +1143,7 @@
     "priority": "",
     "density": "",
     "rent_year": "",
-    "ad": "Продаётся право аренды земельного участка участок в локации 59. Кадастровый номер 59:36:0340225:146. Кадастровая стоимость 158 984 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "ad": "Продаётся право аренды земельного участка (под ИЖС/ЛПХ) в локации 59. Кадастровый номер 59:36:0340225:146. Кадастровая стоимость 158 984 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
     "lat": 58.0115,
     "lon": 56.25,
     "geo_name": "59",
@@ -1158,8 +1158,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=58.0115,56.25&zoom=16&size=800x500&markers=58.0115,56.25,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=56.225,57.9865,56.275,58.0365&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=59%3A36%3A0340225%3A146",
@@ -1182,7 +1182,7 @@
     "priority": "",
     "density": "",
     "rent_year": "",
-    "ad": "Продаётся право аренды земельного участка участок в локации Тульская область. Кадастровый номер 71:16:040403:1018. Кадастровая стоимость 893 145 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "ad": "Продаётся право аренды земельного участка (под ИЖС/ЛПХ) в локации Тульская область. Кадастровый номер 71:16:040403:1018. Кадастровая стоимость 893 145 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
     "lat": 54.19,
     "lon": 37.62,
     "geo_name": "Тульская область",
@@ -1197,8 +1197,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=54.19,37.62&zoom=16&size=800x500&markers=54.19,37.62,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=37.595,54.165,37.644999999999996,54.214999999999996&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=71%3A16%3A040403%3A1018",
@@ -1221,7 +1221,7 @@
     "priority": "",
     "density": "",
     "rent_year": "",
-    "ad": "Продаётся право аренды земельного участка участок в локации 59. Кадастровый номер 59:20:0970101:210. Кадастровая стоимость 87 239 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "ad": "Продаётся право аренды земельного участка (под ИЖС/ЛПХ) в локации 59. Кадастровый номер 59:20:0970101:210. Кадастровая стоимость 87 239 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
     "lat": 58.01,
     "lon": 56.2515,
     "geo_name": "59",
@@ -1236,8 +1236,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=58.01,56.2515&zoom=16&size=800x500&markers=58.01,56.2515,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=56.2265,57.985,56.2765,58.035&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=59%3A20%3A0970101%3A210",
@@ -1260,7 +1260,7 @@
     "priority": "",
     "density": "",
     "rent_year": "",
-    "ad": "Продаётся право аренды земельного участка участок в локации Курганская область. Кадастровый номер 45:04:040101:245. Кадастровая стоимость 35 377 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "ad": "Продаётся право аренды земельного участка (под ИЖС/ЛПХ) в локации Курганская область. Кадастровый номер 45:04:040101:245. Кадастровая стоимость 35 377 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
     "lat": 56.08,
     "lon": 63.63,
     "geo_name": "Курганская область",
@@ -1275,8 +1275,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.08,63.63&zoom=16&size=800x500&markers=56.08,63.63,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=63.605000000000004,56.055,63.655,56.105&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=45%3A04%3A040101%3A245",
@@ -1299,7 +1299,7 @@
     "priority": "",
     "density": "",
     "rent_year": "",
-    "ad": "Продаётся право аренды земельного участка участок в локации Курганская область. Кадастровый номер 45:04:010802:107. Кадастровая стоимость 55 890 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "ad": "Продаётся право аренды земельного участка (под ИЖС/ЛПХ) в локации Курганская область. Кадастровый номер 45:04:010802:107. Кадастровая стоимость 55 890 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
     "lat": 56.09,
     "lon": 63.64,
     "geo_name": "Курганская область",
@@ -1314,8 +1314,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.09,63.64&zoom=16&size=800x500&markers=56.09,63.64,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=63.615,56.065000000000005,63.665,56.115&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=45%3A04%3A010802%3A107",
@@ -1338,7 +1338,7 @@
     "priority": "",
     "density": "",
     "rent_year": "",
-    "ad": "Продаётся право аренды земельного участка участок в локации Курганская область. Кадастровый номер 45:04:012101:473. Кадастровая стоимость 58 043 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "ad": "Продаётся право аренды земельного участка (под ИЖС/ЛПХ) в локации Курганская область. Кадастровый номер 45:04:012101:473. Кадастровая стоимость 58 043 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
     "lat": 56.07,
     "lon": 63.61,
     "geo_name": "Курганская область",
@@ -1353,8 +1353,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.07,63.61&zoom=16&size=800x500&markers=56.07,63.61,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=63.585,56.045,63.635,56.095&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=45%3A04%3A012101%3A473",
@@ -1377,7 +1377,7 @@
     "priority": "",
     "density": "",
     "rent_year": "",
-    "ad": "Продаётся право аренды земельного участка участок в локации Курганская область. Кадастровый номер 45:04:040101:452. Кадастровая стоимость 55 918 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "ad": "Продаётся право аренды земельного участка (под ИЖС/ЛПХ) в локации Курганская область. Кадастровый номер 45:04:040101:452. Кадастровая стоимость 55 918 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
     "lat": 56.085,
     "lon": 63.635,
     "geo_name": "Курганская область",
@@ -1392,8 +1392,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.085,63.635&zoom=16&size=800x500&markers=56.085,63.635,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=63.61,56.06,63.66,56.11&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=45%3A04%3A040101%3A452",
@@ -1416,7 +1416,7 @@
     "priority": "",
     "density": "",
     "rent_year": "",
-    "ad": "Продаётся право аренды земельного участка участок в локации Курганская область. Кадастровый номер 45:04:011501:226. Кадастровая стоимость 41 939 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "ad": "Продаётся право аренды земельного участка (под ИЖС/ЛПХ) в локации Курганская область. Кадастровый номер 45:04:011501:226. Кадастровая стоимость 41 939 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
     "lat": 56.075,
     "lon": 63.625,
     "geo_name": "Курганская область",
@@ -1431,8 +1431,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.075,63.625&zoom=16&size=800x500&markers=56.075,63.625,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=63.6,56.050000000000004,63.65,56.1&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=45%3A04%3A011501%3A226",
@@ -1455,7 +1455,7 @@
     "priority": "",
     "density": "",
     "rent_year": "",
-    "ad": "Продаётся право аренды земельного участка участок в локации Астраханская область. Кадастровый номер 30:07:240101:1853. Кадастровая стоимость 184 575 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "ad": "Продаётся право аренды земельного участка (под ИЖС/ЛПХ) в локации Астраханская область. Кадастровый номер 30:07:240101:1853. Кадастровая стоимость 184 575 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
     "lat": 46.68,
     "lon": 47.85,
     "geo_name": "Астраханская область",
@@ -1470,8 +1470,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=46.68,47.85&zoom=16&size=800x500&markers=46.68,47.85,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=47.825,46.655,47.875,46.705&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=30%3A07%3A240101%3A1853",
@@ -1494,7 +1494,7 @@
     "priority": "",
     "density": "",
     "rent_year": "",
-    "ad": "Продаётся право аренды земельного участка участок в локации Астраханская область. Кадастровый номер 30:07:250301:675. Кадастровая стоимость 158 410 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "ad": "Продаётся право аренды земельного участка (под ИЖС/ЛПХ) в локации Астраханская область. Кадастровый номер 30:07:250301:675. Кадастровая стоимость 158 410 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
     "lat": 46.69,
     "lon": 47.86,
     "geo_name": "Астраханская область",
@@ -1509,8 +1509,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=46.69,47.86&zoom=16&size=800x500&markers=46.69,47.86,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=47.835,46.665,47.885,46.714999999999996&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=30%3A07%3A250301%3A675",
@@ -1533,7 +1533,7 @@
     "priority": "",
     "density": "",
     "rent_year": "",
-    "ad": "Продаётся право аренды земельного участка участок в локации Астраханская область. Кадастровый номер 30:07:250301:676. Кадастровая стоимость 158 410 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "ad": "Продаётся право аренды земельного участка (под ИЖС/ЛПХ) в локации Астраханская область. Кадастровый номер 30:07:250301:676. Кадастровая стоимость 158 410 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
     "lat": 46.695,
     "lon": 47.855,
     "geo_name": "Астраханская область",
@@ -1548,8 +1548,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=46.695,47.855&zoom=16&size=800x500&markers=46.695,47.855,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=47.83,46.67,47.879999999999995,46.72&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=30%3A07%3A250301%3A676",
@@ -1572,7 +1572,7 @@
     "priority": "",
     "density": "",
     "rent_year": "",
-    "ad": "Продаётся право аренды земельного участка участок в локации Астраханская область. Кадастровый номер 30:07:250301:677. Кадастровая стоимость 198 855 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "ad": "Продаётся право аренды земельного участка (под ИЖС/ЛПХ) в локации Астраханская область. Кадастровый номер 30:07:250301:677. Кадастровая стоимость 198 855 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
     "lat": 46.685,
     "lon": 47.865,
     "geo_name": "Астраханская область",
@@ -1587,8 +1587,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=46.685,47.865&zoom=16&size=800x500&markers=46.685,47.865,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=47.84,46.660000000000004,47.89,46.71&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=30%3A07%3A250301%3A677",
@@ -1611,7 +1611,7 @@
     "priority": "",
     "density": "",
     "rent_year": "",
-    "ad": "Продаётся право аренды земельного участка участок в локации Астраханская область. Кадастровый номер 30:07:250501:5687. Кадастровая стоимость 120 870 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "ad": "Продаётся право аренды земельного участка (под ИЖС/ЛПХ) в локации Астраханская область. Кадастровый номер 30:07:250501:5687. Кадастровая стоимость 120 870 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
     "lat": 46.7,
     "lon": 47.84,
     "geo_name": "Астраханская область",
@@ -1626,8 +1626,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=46.7,47.84&zoom=16&size=800x500&markers=46.7,47.84,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=47.815000000000005,46.675000000000004,47.865,46.725&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=30%3A07%3A250501%3A5687",
@@ -1650,7 +1650,7 @@
     "priority": "",
     "density": "",
     "rent_year": "83",
-    "ad": "Продаётся право аренды земельного участка участок в локации п. Ключи, ул. Зелёная, 16. Кадастровый номер 45:06:040401:49. Кадастровая стоимость 13 871 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "ad": "Продаётся право аренды земельного участка (под ИЖС/ЛПХ) в локации п. Ключи, ул. Зелёная, 16. Кадастровый номер 45:06:040401:49. Кадастровая стоимость 13 871 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
     "lat": 56.08,
     "lon": 63.62,
     "geo_name": "п. Ключи, Курганская область",
@@ -1665,8 +1665,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.08,63.62&zoom=16&size=800x500&markers=56.08,63.62,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=63.595,56.055,63.644999999999996,56.105&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=45%3A06%3A040401%3A49",
@@ -1689,7 +1689,7 @@
     "priority": "",
     "density": "",
     "rent_year": "",
-    "ad": "Продаётся право аренды земельного участка участок в локации Забайкальский край. Кадастровый номер 75:19:170131:251. Кадастровая стоимость 271 920 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "ad": "Продаётся право аренды земельного участка (под ИЖС/ЛПХ) в локации Забайкальский край. Кадастровый номер 75:19:170131:251. Кадастровая стоимость 271 920 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
     "lat": 52.03,
     "lon": 113.5,
     "geo_name": "Забайкальский край",
@@ -1704,8 +1704,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=52.03,113.5&zoom=16&size=800x500&markers=52.03,113.5,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=113.475,52.005,113.525,52.055&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=75%3A19%3A170131%3A251",
@@ -1743,8 +1743,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=58.62,35.78&zoom=16&size=800x500&markers=58.62,35.78,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=35.755,58.595,35.805,58.644999999999996&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=53%3A14%3A0901801%3A266",
@@ -1782,8 +1782,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=58.55,35.7&zoom=16&size=800x500&markers=58.55,35.7,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=35.675000000000004,58.525,35.725,58.574999999999996&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=53%3A14%3A1204901%3A212",
@@ -1806,7 +1806,7 @@
     "priority": "",
     "density": "",
     "rent_year": "",
-    "ad": "Продаётся право аренды земельного участка участок в локации 59. Кадастровый номер 59:39:0010308:81. Кадастровая стоимость 99 728 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "ad": "Продаётся право аренды земельного участка (под ИЖС/ЛПХ) в локации 59. Кадастровый номер 59:39:0010308:81. Кадастровая стоимость 99 728 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
     "lat": 58.0085,
     "lon": 56.25,
     "geo_name": "59",
@@ -1821,8 +1821,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=58.0085,56.25&zoom=16&size=800x500&markers=58.0085,56.25,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=56.225,57.9835,56.275,58.0335&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=59%3A39%3A0010308%3A81",
@@ -1845,7 +1845,7 @@
     "priority": "",
     "density": "",
     "rent_year": "",
-    "ad": "Продаётся право аренды земельного участка участок в локации 59. Кадастровый номер 59:39:0010302:33. Кадастровая стоимость 84 665 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "ad": "Продаётся право аренды земельного участка (под ИЖС/ЛПХ) в локации 59. Кадастровый номер 59:39:0010302:33. Кадастровая стоимость 84 665 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
     "lat": 58.01,
     "lon": 56.2485,
     "geo_name": "59",
@@ -1860,8 +1860,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=58.01,56.2485&zoom=16&size=800x500&markers=58.01,56.2485,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=56.2235,57.985,56.2735,58.035&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=59%3A39%3A0010302%3A33",
@@ -1884,7 +1884,7 @@
     "priority": "",
     "density": "",
     "rent_year": "",
-    "ad": "Продаётся право аренды земельного участка участок в локации Воронежская область. Кадастровый номер 36:08:0800001:21. Кадастровая стоимость 321 850 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "ad": "Продаётся право аренды земельного участка (под ИЖС/ЛПХ) в локации Воронежская область. Кадастровый номер 36:08:0800001:21. Кадастровая стоимость 321 850 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
     "lat": 51.67,
     "lon": 39.18,
     "geo_name": "Воронежская область",
@@ -1899,8 +1899,8 @@
         "caption": "Окрестности со спутника"
       },
       {
-        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=51.67,39.18&zoom=16&size=800x500&markers=51.67,39.18,red-pushpin",
-        "caption": "Карта местности"
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=39.155,51.645,39.205,51.695&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Район на спутнике"
       }
     ],
     "nspd_url": "https://nspd.gov.ru/map?cad_num=36%3A08%3A0800001%3A21",
