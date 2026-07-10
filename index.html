@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ЗЕМЛЯ — участки по всей России</title>
+  <meta name="description" content="49 земельных участков в аренде от государства. ИЖС и ЛПХ, кадастровая стоимость, спутниковые снимки, карта России." />
+  <meta property="og:title" content="ЗЕМЛЯ — участки по всей России" />
+  <meta property="og:description" content="Выбирайте участок на карте. Кадастровая стоимость, фото со спутника, документы в порядке." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top">ЗЕМЛЯ</a>
+    <nav class="nav">
+      <a href="#map">Карта</a>
+      <a href="#catalog">Каталог</a>
+      <a href="#how">Как купить</a>
+      <a href="#contact" class="nav-cta">Связаться</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <p class="eyebrow">Права аренды · ИЖС / ЛПХ · 16 регионов</p>
+        <h1>ЗЕМЛЯ</h1>
+        <p class="hero-lead">Участки на карте России — как на Авито, только сразу с кадастром, спутником и понятной ценой.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#map">Смотреть на карте</a>
+          <a class="btn btn-ghost" href="#catalog">Открыть каталог</a>
+        </div>
+        <dl class="hero-stats">
+          <div><dt id="stat-count">49</dt><dd>участков</dd></div>
+          <div><dt id="stat-regions">16</dt><dd>регионов</dd></div>
+          <div><dt id="stat-value">11 млн ₽</dt><dd>кадастровая стоимость</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="map-section" id="map">
+      <div class="map-head">
+        <div>
+          <h2>Карта участков</h2>
+          <p>Нажмите на цену — откроется карточка с характеристиками, описанием и спутниковыми фото.</p>
+        </div>
+        <div class="map-filters">
+          <label class="filter">
+            <span>Регион</span>
+            <select id="filter-region">
+              <option value="">Все регионы</option>
+            </select>
+          </label>
+          <label class="filter">
+            <span>Сортировка</span>
+            <select id="filter-sort">
+              <option value="cost-desc">Кадастр ↓</option>
+              <option value="cost-asc">Кадастр ↑</option>
+              <option value="area-desc">Площадь ↓</option>
+              <option value="area-asc">Площадь ↑</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <div class="map-shell">
+        <div id="leaflet-map" role="application" aria-label="Карта участков России"></div>
+        <aside class="map-side" id="map-side">
+          <p class="side-hint">Выберите участок на карте</p>
+          <div id="side-list" class="side-list"></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="catalog" id="catalog">
+      <div class="section-head">
+        <h2>Каталог</h2>
+        <p>Все доступные участки. Цена на витрине — кадастровая стоимость.</p>
+      </div>
+      <div class="catalog-grid" id="catalog-grid"></div>
+    </section>
+
+    <section class="how" id="how">
+      <div class="section-head">
+        <h2>Как это работает</h2>
+        <p>Прозрачная сделка без сюрпризов.</p>
+      </div>
+      <ol class="steps">
+        <li>
+          <strong>Выбираете участок</strong>
+          <span>На карте или в каталоге — смотрите спутник, площадь и кадастр.</span>
+        </li>
+        <li>
+          <strong>Получаете документы</strong>
+          <span>Кадастровый номер, договор аренды, условия переуступки.</span>
+        </li>
+        <li>
+          <strong>Закрываете сделку</strong>
+          <span>Соглашение о передаче прав аренды и регистрация.</span>
+        </li>
+      </ol>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-card">
+        <h2>Забронировать участок</h2>
+        <p>Напишите кадастровый номер или регион — ответим по документам и условиям в тот же день.</p>
+        <form id="lead-form" class="lead-form">
+          <label>
+            Имя
+            <input name="name" type="text" required placeholder="Как к вам обращаться" />
+          </label>
+          <label>
+            Телефон или Telegram
+            <input name="contact" type="text" required placeholder="+7… или @username" />
+          </label>
+          <label>
+            Интересующий участок
+            <input name="plot" type="text" placeholder="Кадастровый номер или город" />
+          </label>
+          <button type="submit" class="btn btn-primary">Отправить заявку</button>
+        </form>
+        <p class="form-note" id="form-note" hidden>Заявка скопирована. Напишите её владельцу — ответим по документам.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>ЗЕМЛЯ</strong>
+      <span>Портфель участков в аренде от государства</span>
+    </div>
+    <a href="https://github.com/pavelabramyan/zemlya" target="_blank" rel="noopener">GitHub</a>
+  </footer>
+
+  <div class="modal" id="plot-modal" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <article class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" data-close aria-label="Закрыть">×</button>
+      <div class="modal-gallery">
+        <img id="modal-photo" alt="Спутниковый снимок участка" />
+        <div class="gallery-thumbs" id="modal-thumbs"></div>
+      </div>
+      <div class="modal-body">
+        <p class="modal-region" id="modal-region"></p>
+        <h3 id="modal-title"></h3>
+        <p class="modal-price" id="modal-price"></p>
+        <dl class="specs" id="modal-specs"></dl>
+        <p class="modal-desc" id="modal-desc"></p>
+        <div class="modal-actions">
+          <a class="btn btn-primary" id="modal-cta" href="#contact">Хочу этот участок</a>
+          <a class="btn btn-ghost" id="modal-nspd" target="_blank" rel="noopener">НСПД / карта</a>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
