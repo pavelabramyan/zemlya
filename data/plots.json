@@ -1096,7 +1096,7 @@
     "area_estimate_src": "district_rate"
   },
   {
-    "region": "",
+    "region": "Вологодская область",
     "place": "",
     "settlement": "",
     "cadastre": "35:16:0301018:362",
@@ -1137,7 +1137,7 @@
     "area_estimate_src": "global_rate"
   },
   {
-    "region": "",
+    "region": "Пермский край",
     "place": "",
     "settlement": "",
     "cadastre": "59:36:0340225:146",
@@ -1178,7 +1178,7 @@
     "area_estimate_src": "region_rate"
   },
   {
-    "region": "",
+    "region": "Тульская область",
     "place": "",
     "settlement": "",
     "cadastre": "71:16:040403:1018",
@@ -1219,7 +1219,7 @@
     "area_estimate_src": "global_rate"
   },
   {
-    "region": "",
+    "region": "Пермский край",
     "place": "",
     "settlement": "",
     "cadastre": "59:20:0970101:210",
@@ -1260,7 +1260,7 @@
     "area_estimate_src": "region_rate"
   },
   {
-    "region": "",
+    "region": "Курганская область",
     "place": "",
     "settlement": "",
     "cadastre": "45:04:040101:245",
@@ -1301,7 +1301,7 @@
     "area_estimate_src": "global_rate"
   },
   {
-    "region": "",
+    "region": "Курганская область",
     "place": "",
     "settlement": "",
     "cadastre": "45:04:010802:107",
@@ -1342,7 +1342,7 @@
     "area_estimate_src": "global_rate"
   },
   {
-    "region": "",
+    "region": "Курганская область",
     "place": "",
     "settlement": "",
     "cadastre": "45:04:012101:473",
@@ -1383,7 +1383,7 @@
     "area_estimate_src": "global_rate"
   },
   {
-    "region": "",
+    "region": "Курганская область",
     "place": "",
     "settlement": "",
     "cadastre": "45:04:040101:452",
@@ -1424,7 +1424,7 @@
     "area_estimate_src": "global_rate"
   },
   {
-    "region": "",
+    "region": "Курганская область",
     "place": "",
     "settlement": "",
     "cadastre": "45:04:011501:226",
@@ -1465,7 +1465,7 @@
     "area_estimate_src": "global_rate"
   },
   {
-    "region": "",
+    "region": "Астраханская область",
     "place": "",
     "settlement": "",
     "cadastre": "30:07:240101:1853",
@@ -1506,7 +1506,7 @@
     "area_estimate_src": "global_rate"
   },
   {
-    "region": "",
+    "region": "Астраханская область",
     "place": "",
     "settlement": "",
     "cadastre": "30:07:250301:675",
@@ -1547,7 +1547,7 @@
     "area_estimate_src": "global_rate"
   },
   {
-    "region": "",
+    "region": "Астраханская область",
     "place": "",
     "settlement": "",
     "cadastre": "30:07:250301:676",
@@ -1588,7 +1588,7 @@
     "area_estimate_src": "global_rate"
   },
   {
-    "region": "",
+    "region": "Астраханская область",
     "place": "",
     "settlement": "",
     "cadastre": "30:07:250301:677",
@@ -1629,7 +1629,7 @@
     "area_estimate_src": "global_rate"
   },
   {
-    "region": "",
+    "region": "Астраханская область",
     "place": "",
     "settlement": "",
     "cadastre": "30:07:250501:5687",
@@ -1711,7 +1711,7 @@
     "area_estimate_src": "global_rate"
   },
   {
-    "region": "",
+    "region": "Забайкальский край",
     "place": "",
     "settlement": "",
     "cadastre": "75:19:170131:251",
@@ -1830,7 +1830,7 @@
     "pkk_url": "https://pkk.rosreestr.ru/#/search/53%3A14%3A1204901%3A212"
   },
   {
-    "region": "",
+    "region": "Пермский край",
     "place": "",
     "settlement": "",
     "cadastre": "59:39:0010308:81",
@@ -1871,7 +1871,7 @@
     "area_estimate_src": "region_rate"
   },
   {
-    "region": "",
+    "region": "Пермский край",
     "place": "",
     "settlement": "",
     "cadastre": "59:39:0010302:33",
@@ -1912,7 +1912,7 @@
     "area_estimate_src": "region_rate"
   },
   {
-    "region": "",
+    "region": "Воронежская область",
     "place": "",
     "settlement": "",
     "cadastre": "36:08:0800001:21",
