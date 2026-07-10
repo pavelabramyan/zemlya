@@ -86,8 +86,11 @@
     });
   }
 
-  /** Ориентировочный контур по площади (не кадастровая граница). */
+  /** Реальный контур НСПД, иначе приближение по площади. */
   function plotPolygon(plot) {
+    if (Array.isArray(plot.leaflet_ring) && plot.leaflet_ring.length >= 3) {
+      return plot.leaflet_ring;
+    }
     const lat = Number(plot.lat);
     const lon = Number(plot.lon);
     const area = Math.max(Number(plot.area_m2) || 1000, 400);
@@ -208,9 +211,11 @@
       .join("");
 
     if (els.note) {
-      els.note.textContent = plot.area_estimated
-        ? "Жёлтый контур и площадь — ориентировочные. Точные границы и метраж подтвердим по ЕГРН / НСПД."
-        : "Жёлтый контур на карте ориентировочный (по площади). Точные границы — в НСПД / выписке ЕГРН.";
+      els.note.textContent = plot.leaflet_ring
+        ? "Жёлтый контур — границы участка по данным НСПД."
+        : plot.area_estimated
+          ? "Жёлтый контур и площадь — ориентировочные. Точные границы подтвердим по ЕГРН / НСПД."
+          : "Жёлтый контур ориентировочный. Точные границы — в НСПД / выписке ЕГРН.";
     }
   }
 
