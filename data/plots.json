@@ -1,0 +1,1913 @@
+[
+  {
+    "region": "Свердловская область",
+    "place": "Красноярский край, Килачевское",
+    "settlement": "Килачевское",
+    "cadastre": "66:11:4901001:668",
+    "price_sale": "450000",
+    "cadastre_cost": "160550",
+    "area": "2500",
+    "price_sotka": "64,22",
+    "status": "В аренде",
+    "priority": "19",
+    "density": "0,17",
+    "rent_year": "",
+    "ad": "Продается большой участок 25 соток в районе Килачевское. Формат для тех, кто хочет простор, воздух и землю с понятным кадастровым номером, а не крошечный клочок за городские деньги. Отлично подойдет под дом, дачу, семейную базу отдыха или спокойную инвестицию в землю. Участок крупный, поэтому можно грамотно разместить дом, баню, гараж, сад, теплицы и оставить место под двор. Кадастровый номер: 66:11:4901001:668. Цена поставлена привлекательная для быстрой продажи. Кто ищет землю без долгих торгов и переплат, пишите сейчас, такие варианты быстро забирают.",
+    "lat": 57.783,
+    "lon": 63.617,
+    "geo_name": "Килачевское",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=63.613499999999995,57.7795,63.6205,57.786500000000004&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=63.605,57.771,63.629,57.795&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=57.783,63.617&zoom=16&size=800x500&markers=57.783,63.617,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=66%3A11%3A4901001%3A668",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/66%3A11%3A4901001%3A668",
+    "area_m2": 2500.0,
+    "cadastre_cost_num": 160550.0,
+    "price_sale_num": 450000.0,
+    "area_sotka": 25.0
+  },
+  {
+    "region": "Бурятия",
+    "place": "Турунтаево, мкр Заречный, 8Б",
+    "settlement": "Турунтаево",
+    "cadastre": "03:16:540101:1477",
+    "price_sale": "250000",
+    "cadastre_cost": "321105",
+    "area": "1500",
+    "price_sotka": "214,07",
+    "status": "В аренде",
+    "priority": "7",
+    "density": "0,09",
+    "rent_year": "",
+    "ad": "Продам участок 15 соток в Турунтаево, мкр Заречный, адресный ориентир 8Б. Отличный размер: не маленький и не чрезмерный, удобно под строительство дома, дачу, баню, сад и нормальный двор. Место перспективное, земля в поселке всегда понятнее и ликвиднее, чем где-то “в поле”. Кадастровый номер: 03:16:540101:1477. Цена сделана вкусной, чтобы покупатель не думал месяцами. Если хотите забрать хороший участок по адекватной цене, пишите, покажу документы и отвечу по условиям.",
+    "lat": 52.20349,
+    "lon": 107.6429,
+    "geo_name": "Турунтаево",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=107.6394,52.19999,107.6464,52.206990000000005&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=107.6309,52.19149,107.6549,52.21549&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=52.20349,107.6429&zoom=16&size=800x500&markers=52.20349,107.6429,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=03%3A16%3A540101%3A1477",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/03%3A16%3A540101%3A1477",
+    "area_m2": 1500.0,
+    "cadastre_cost_num": 321105.0,
+    "price_sale_num": 250000.0,
+    "area_sotka": 15.0
+  },
+  {
+    "region": "Бурятия",
+    "place": "Турунтаево, мкр Заречный, 22",
+    "settlement": "Турунтаево",
+    "cadastre": "03:16:340159:39",
+    "price_sale": "250000",
+    "cadastre_cost": "323760",
+    "area": "1500",
+    "price_sotka": "215,84",
+    "status": "В аренде",
+    "priority": "8",
+    "density": "0,09",
+    "rent_year": "",
+    "ad": "Участок 15 соток в Турунтаево, мкр Заречный, ориентир 22. Хороший вариант для строительства своего дома или дачи в живом направлении, где земля понятна и востребована. Площадь комфортная: хватит на дом, баню, парковку, огород и зону отдыха. Кадастровый номер: 03:16:340159:39. Цена ниже ожиданий по рынку, специально для быстрой сделки. Не “просто посмотрю”, а вариант для тех, кто хочет забрать землю и двигаться дальше. Пишите, пока актуально.",
+    "lat": 52.20049,
+    "lon": 107.6429,
+    "geo_name": "Турунтаево",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=107.6394,52.19699,107.6464,52.203990000000005&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=107.6309,52.18849,107.6549,52.21249&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=52.20049,107.6429&zoom=16&size=800x500&markers=52.20049,107.6429,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=03%3A16%3A340159%3A39",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/03%3A16%3A340159%3A39",
+    "area_m2": 1500.0,
+    "cadastre_cost_num": 323760.0,
+    "price_sale_num": 250000.0,
+    "area_sotka": 15.0
+  },
+  {
+    "region": "Бурятия",
+    "place": "с.п. Ильинское, с. Ильинка, мкр Западный, 138",
+    "settlement": "Ильинка",
+    "cadastre": "03:16:510107:360",
+    "price_sale": "160000",
+    "cadastre_cost": "244164",
+    "area": "1200",
+    "price_sotka": "203,47",
+    "status": "В аренде",
+    "priority": "15",
+    "density": "0,06",
+    "rent_year": "",
+    "ad": "Продам участок 12 соток в с. Ильинка, мкр Западный, ориентир 138. Хорошая площадь для дома, дачи или семейного участка без лишней переплаты за огромные сотки. Место спокойное, формат понятный: земля в населенном пункте, кадастровый номер проверяемый: 03:16:510107:360. Цена поставлена так, чтобы участок был одним из самых интересных вариантов для быстрого решения. Отлично для тех, кто давно присматривает землю и ждет нормальную цену. Пишите, расскажу детали.",
+    "lat": 52.11944,
+    "lon": 107.27083,
+    "geo_name": "Ильинка",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=107.26733,52.115939999999995,107.27433,52.12294&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=107.25883,52.10744,107.28283,52.13144&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=52.11944,107.27083&zoom=16&size=800x500&markers=52.11944,107.27083,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=03%3A16%3A510107%3A360",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/03%3A16%3A510107%3A360",
+    "area_m2": 1200.0,
+    "cadastre_cost_num": 244164.0,
+    "price_sale_num": 160000.0,
+    "area_sotka": 12.0
+  },
+  {
+    "region": "Бурятия",
+    "place": "п. Татаурово, Строительная 11",
+    "settlement": "Татаурово",
+    "cadastre": "03:16:310102:188",
+    "price_sale": "270000",
+    "cadastre_cost": "297735",
+    "area": "1500",
+    "price_sotka": "198,49",
+    "status": "В аренде",
+    "priority": "6",
+    "density": "0,09",
+    "rent_year": "",
+    "ad": "Участок 15 соток в п. Татаурово, ориентир Строительная 11. Очень удачный размер под дом, дачу, баню, сад и полноценный двор. Татаурово, трасса и направление делают участок интересным не только для жизни, но и как вложение в землю. Кадастровый номер: 03:16:310102:188. Цена выставлена без “хотелок”, чтобы сделка прошла быстро. Если нужен участок с нормальной площадью и понятным местом, пишите сейчас.",
+    "lat": 52.14182,
+    "lon": 107.44054,
+    "geo_name": "Татаурово",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=107.43704,52.13832,107.44404,52.145320000000005&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=107.42854,52.12982,107.45254,52.15382&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=52.14182,107.44054&zoom=16&size=800x500&markers=52.14182,107.44054,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=03%3A16%3A310102%3A188",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/03%3A16%3A310102%3A188",
+    "area_m2": 1500.0,
+    "cadastre_cost_num": 297735.0,
+    "price_sale_num": 270000.0,
+    "area_sotka": 15.0
+  },
+  {
+    "region": "Свердловская область",
+    "place": "город Кировград, улица Сакко и Ванцетти, участок 26Б",
+    "settlement": "Кировград",
+    "cadastre": "66:49:0503025:316",
+    "price_sale": "220000",
+    "cadastre_cost": "181552",
+    "area": "880",
+    "price_sotka": "206,31",
+    "status": "В аренде",
+    "priority": "2",
+    "density": "1,39",
+    "rent_year": "483",
+    "ad": "Продам городской участок 8,8 сотки в Кировграде, ул. Сакко и Ванцетти, участок 26Б. Редкий формат: не дальнее поле, а участок в городе, где земля обычно ликвиднее и понятнее покупателю. Площадь удобная под дом, баню, гараж, сад и двор без лишних затрат на содержание огромной территории. Кадастровый номер: 66:49:0503025:316. Цена сделана привлекательной для быстрой продажи. Хорошие городские участки по адекватной цене долго не ждут.",
+    "lat": 57.43284,
+    "lon": 60.06172,
+    "geo_name": "Кировград",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=60.05822,57.429339999999996,60.065220000000004,57.43634&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=60.04972,57.42084,60.07372,57.44484&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=57.43284,60.06172&zoom=16&size=800x500&markers=57.43284,60.06172,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=66%3A49%3A0503025%3A316",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/66%3A49%3A0503025%3A316",
+    "area_m2": 880.0,
+    "cadastre_cost_num": 181552.0,
+    "price_sale_num": 220000.0,
+    "area_sotka": 8.8
+  },
+  {
+    "region": "Свердловская область",
+    "place": "город Кировград, улица Сакко и Ванцетти, участок 26",
+    "settlement": "Кировград",
+    "cadastre": "66:49:0503025:318",
+    "price_sale": "200000",
+    "cadastre_cost": "181989",
+    "area": "778",
+    "price_sotka": "233,92",
+    "status": "В аренде",
+    "priority": "1",
+    "density": "1,39",
+    "rent_year": "483",
+    "ad": "Продам участок 7,78 сотки в Кировграде, ул. Сакко и Ванцетти, участок 26. Отличный компактный городской вариант: достаточно места под дом и двор, при этом без переплаты за лишнюю площадь. Участок с понятным адресным ориентиром и кадастровым номером: 66:49:0503025:318. Подойдет тем, кто хочет землю в городе, а не где-то на окраине без ясной перспективы. Цена живая, рассчитана на быструю сделку. Пишите, пока участок свободен.",
+    "lat": 57.42984,
+    "lon": 60.06172,
+    "geo_name": "Кировград",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=60.05822,57.426339999999996,60.065220000000004,57.43334&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=60.04972,57.41784,60.07372,57.44184&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=57.42984,60.06172&zoom=16&size=800x500&markers=57.42984,60.06172,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=66%3A49%3A0503025%3A318",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/66%3A49%3A0503025%3A318",
+    "area_m2": 778.0,
+    "cadastre_cost_num": 181989.0,
+    "price_sale_num": 200000.0,
+    "area_sotka": 7.8
+  },
+  {
+    "region": "Амурская область",
+    "place": "р-н. Бурейский, пгт. Бурея, ул. Райчихинская, д. 52.",
+    "settlement": "Бурея",
+    "cadastre": "28:11:010834:13",
+    "price_sale": "430000",
+    "cadastre_cost": "555413",
+    "area": "1432",
+    "price_sotka": "387,86",
+    "status": "В аренде",
+    "priority": "5",
+    "density": "0,21",
+    "rent_year": "2082",
+    "ad": "Продам участок 14,32 сотки в пгт Бурея, ул. Райчихинская, ориентир 52. Хорошая площадь для дома, дачи, хозяйственных построек и двора. Бурея — понятный населенный пункт, не пустое направление, поэтому земля здесь интересна и для жизни, и как вложение. Кадастровый номер: 28:11:010834:13. Цена выставлена с расчетом на быструю продажу, без завышения “на удачу”. Кто ищет участок в Бурейском районе, пишите, вариант стоит посмотреть.",
+    "lat": 49.81441,
+    "lon": 129.81276,
+    "geo_name": "Бурея",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=129.80926,49.81091,129.81626,49.817910000000005&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=129.80076,49.80241,129.82476,49.82641&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=49.81441,129.81276&zoom=16&size=800x500&markers=49.81441,129.81276,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A11%3A010834%3A13",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/28%3A11%3A010834%3A13",
+    "area_m2": 1432.0,
+    "cadastre_cost_num": 555413.0,
+    "price_sale_num": 430000.0,
+    "area_sotka": 14.3
+  },
+  {
+    "region": "Амурская область",
+    "place": "р-н Бурейский, пгт Бурея, ул Осовская, д 40",
+    "settlement": "Бурея",
+    "cadastre": "28:11:010940:28",
+    "price_sale": "450000",
+    "cadastre_cost": "574472",
+    "area": "1492",
+    "price_sotka": "385,03",
+    "status": "В аренде",
+    "priority": "4",
+    "density": "0,21",
+    "rent_year": "2154",
+    "ad": "Участок 14,92 сотки в пгт Бурея, ул. Осовская, ориентир 40. Почти 15 соток — один из самых удобных размеров под строительство: дом, баня, гараж, сад, зона отдыха, и все это без тесноты. Кадастровый номер: 28:11:010940:28. Цена поставлена конкурентная, чтобы участок не висел месяцами. Отличный вариант для тех, кто хочет купить землю в понятном поселке по нормальной цене. Пишите, отвечу по документам и условиям.",
+    "lat": 49.81141,
+    "lon": 129.81276,
+    "geo_name": "Бурея",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=129.80926,49.80791,129.81626,49.814910000000005&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=129.80076,49.79941,129.82476,49.82341&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=49.81141,129.81276&zoom=16&size=800x500&markers=49.81141,129.81276,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A11%3A010940%3A28",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/28%3A11%3A010940%3A28",
+    "area_m2": 1492.0,
+    "cadastre_cost_num": 574472.0,
+    "price_sale_num": 450000.0,
+    "area_sotka": 14.9
+  },
+  {
+    "region": "Амурская область",
+    "place": "Тындинский р-н., п. Маревый",
+    "settlement": "Маревый",
+    "cadastre": "28:26:040900:846",
+    "price_sale": "220000",
+    "cadastre_cost": "163653",
+    "area": "879",
+    "price_sotka": "186,18",
+    "status": "Отправил договор, ждем",
+    "priority": "17",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продам участок 8,79 сотки, Тындинский район, п. Маревый. Компактный, удобный участок для дачи, дома или спокойного вложения в землю без большой суммы входа. Кадастровый номер: 28:26:040900:846. Такой формат хорош тем, что цена доступная, площадь достаточная, а объект можно проверить по кадастру. Цена сделана привлекательной, чтобы покупатель мог быстро принять решение. Если ищете недорогую землю в Амурской области, пишите.",
+    "lat": 55.45,
+    "lon": 123.55,
+    "geo_name": "Маревый",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=123.5465,55.4465,123.5535,55.453500000000005&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=123.538,55.438,123.562,55.462&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=55.45,123.55&zoom=16&size=800x500&markers=55.45,123.55,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A26%3A040900%3A846",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/28%3A26%3A040900%3A846",
+    "area_m2": 879.0,
+    "cadastre_cost_num": 163653.0,
+    "price_sale_num": 220000.0,
+    "area_sotka": 8.8
+  },
+  {
+    "region": "Амурская область",
+    "place": "р-н Тындинский, п. Муртыгит, ул. Молодежная",
+    "settlement": "Муртыгит",
+    "cadastre": "28:26:031100:418",
+    "price_sale": "300000",
+    "cadastre_cost": "243045",
+    "area": "1232",
+    "price_sotka": "197,28",
+    "status": "Отправил договор, ждем",
+    "priority": "9",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продам участок 12,32 сотки, Тындинский район, п. Муртыгит, ул. Молодежная. Хорошая площадь под дом, дачу, баню, гараж и двор. Участок с понятным адресным ориентиром, кадастровый номер: 28:26:031100:418. Отличный вариант для тех, кто смотрит землю в северном направлении Амурской области и хочет не переплачивать. Цена поставлена для быстрой продажи, с разумным запасом на оформление. Пишите, пока объявление актуально.",
+    "lat": 54.92,
+    "lon": 124.92,
+    "geo_name": "Муртыгит",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=124.9165,54.9165,124.9235,54.923500000000004&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=124.908,54.908,124.932,54.932&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=54.92,124.92&zoom=16&size=800x500&markers=54.92,124.92,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A26%3A031100%3A418",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/28%3A26%3A031100%3A418",
+    "area_m2": 1232.0,
+    "cadastre_cost_num": 243045.0,
+    "price_sale_num": 300000.0,
+    "area_sotka": 12.3
+  },
+  {
+    "region": "Красноярский край",
+    "place": "Красноярский край, Пировский район, с. Бельское, ул. Советская, д. 36",
+    "settlement": "Бельское",
+    "cadastre": "24:31:1901005:194",
+    "price_sale": "120000",
+    "cadastre_cost": "49640",
+    "area": "998",
+    "price_sotka": "49,74",
+    "status": "В аренде",
+    "priority": "20",
+    "density": "0,01",
+    "rent_year": "",
+    "ad": "Продам участок 9,98 сотки в Красноярском крае, кадастровый номер: 24:31:1901005:194. Отличный вариант для тех, кто хочет недорогую землю с понятным кадастровым номером и нормальной площадью почти 10 соток. Подойдет под дачу, строительство, хозяйственные цели или как спокойное вложение в землю. Цена очень привлекательная, без завышения и долгих торгов. Если ищете участок с низким порогом входа, пишите, такой вариант легко забрать быстро.",
+    "lat": 57.8163,
+    "lon": 92.1632,
+    "geo_name": "Бельское",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=92.1597,57.812799999999996,92.1667,57.8198&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=92.1512,57.8043,92.1752,57.8283&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=57.8163,92.1632&zoom=16&size=800x500&markers=57.8163,92.1632,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=24%3A31%3A1901005%3A194",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/24%3A31%3A1901005%3A194",
+    "area_m2": 998.0,
+    "cadastre_cost_num": 49640.0,
+    "price_sale_num": 120000.0,
+    "area_sotka": 10.0
+  },
+  {
+    "region": "Свердловская область",
+    "place": "д. Черноусова",
+    "settlement": "Черноусова",
+    "cadastre": "66:12:1602007:161",
+    "price_sale": "300000",
+    "cadastre_cost": "275260",
+    "area": "1516",
+    "price_sotka": "181,57",
+    "status": "В аренде",
+    "priority": "10",
+    "density": "0,08",
+    "rent_year": "",
+    "ad": "Продам участок 15,16 сотки в д. Черноусова. Отличная площадь для загородного дома, дачи, сада, бани и полноценного двора. Формат для тех, кто хочет тишину, пространство и землю в понятной деревне, а не тесный участок за большие деньги. Кадастровый номер: 66:12:1602007:161. Цена поставлена привлекательная, чтобы быстро найти покупателя. Можно рассмотреть вместе с соседними участками, если нужен больший массив земли.",
+    "lat": 56.9515,
+    "lon": 60.05,
+    "geo_name": "Черноусова",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=60.046499999999995,56.948,60.0535,56.955000000000005&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=60.038,56.9395,60.062,56.9635&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.9515,60.05&zoom=16&size=800x500&markers=56.9515,60.05,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=66%3A12%3A1602007%3A161",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/66%3A12%3A1602007%3A161",
+    "area_m2": 1516.0,
+    "cadastre_cost_num": 275260.0,
+    "price_sale_num": 300000.0,
+    "area_sotka": 15.2
+  },
+  {
+    "region": "Свердловская область",
+    "place": "д. Черноусова",
+    "settlement": "Черноусова",
+    "cadastre": "66:12:1602007:190",
+    "price_sale": "240000",
+    "cadastre_cost": "240609",
+    "area": "1208",
+    "price_sotka": "199,18",
+    "status": "В аренде",
+    "priority": "13",
+    "density": "0,08",
+    "rent_year": "",
+    "ad": "Продам участок 12,08 сотки в д. Черноусова. Удобный размер под дом или дачу: достаточно пространства, но без лишних затрат на огромную площадь. Кадастровый номер: 66:12:1602007:190. Место подойдет тем, кто хочет землю в спокойной локации и не хочет переплачивать за раскрученные направления. Цена рассчитана на быструю продажу. Есть соседние участки, можно подобрать вариант под себя или собрать больше земли.",
+    "lat": 56.950463525491564,
+    "lon": 60.05142658477444,
+    "geo_name": "Черноусова",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=60.04792658477444,56.94696352549156,60.05492658477444,56.95396352549157&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=60.03942658477444,56.938463525491564,60.06342658477444,56.962463525491565&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.950463525491564,60.05142658477444&zoom=16&size=800x500&markers=56.950463525491564,60.05142658477444,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=66%3A12%3A1602007%3A190",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/66%3A12%3A1602007%3A190",
+    "area_m2": 1208.0,
+    "cadastre_cost_num": 240609.0,
+    "price_sale_num": 240000.0,
+    "area_sotka": 12.1
+  },
+  {
+    "region": "Свердловская область",
+    "place": "д. Черноусова",
+    "settlement": "Черноусова",
+    "cadastre": "66:12:1602007:175",
+    "price_sale": "210000",
+    "cadastre_cost": "221353",
+    "area": "1040",
+    "price_sotka": "212,84",
+    "status": "В аренде",
+    "priority": "14",
+    "density": "0,08",
+    "rent_year": "",
+    "ad": "Участок 10,4 сотки в д. Черноусова. Хороший ровный формат для дома, дачи, сада, бани и небольшого хозяйства. Кадастровый номер: 66:12:1602007:175. Площадь оптимальная: покупателю не нужно платить за лишние сотки, но места хватает для комфортного использования. Цена сделана живой и конкурентной. Отличный вариант для тех, кто хочет землю в деревне по адекватной цене. Пишите, пока свободен.",
+    "lat": 56.94878647450844,
+    "lon": 60.05088167787844,
+    "geo_name": "Черноусова",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=60.047381677878434,56.945286474508436,60.05438167787844,56.95228647450844&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=60.038881677878436,56.93678647450844,60.06288167787844,56.96078647450844&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.94878647450844,60.05088167787844&zoom=16&size=800x500&markers=56.94878647450844,60.05088167787844,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=66%3A12%3A1602007%3A175",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/66%3A12%3A1602007%3A175",
+    "area_m2": 1040.0,
+    "cadastre_cost_num": 221353.0,
+    "price_sale_num": 210000.0,
+    "area_sotka": 10.4
+  },
+  {
+    "region": "Свердловская область",
+    "place": "д. Черноусова",
+    "settlement": "Черноусова",
+    "cadastre": "66:12:1602007:179",
+    "price_sale": "250000",
+    "cadastre_cost": "255551",
+    "area": "1269",
+    "price_sotka": "201,38",
+    "status": "В аренде",
+    "priority": "11",
+    "density": "0,08",
+    "rent_year": "",
+    "ad": "Продам участок 12,69 сотки в д. Черноусова. Хороший вариант для загородной жизни, дачи или вложения в землю. Площадь позволяет разместить дом, баню, парковку, сад и оставить нормальный двор. Кадастровый номер: 66:12:1602007:179. Цена поставлена без завышения, чтобы участок быстро нашел покупателя. Можно смотреть отдельно или вместе с соседними участками, если хотите больше земли.",
+    "lat": 56.94878647450844,
+    "lon": 60.04911832212156,
+    "geo_name": "Черноусова",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=60.045618322121555,56.945286474508436,60.05261832212156,56.95228647450844&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=60.03711832212156,56.93678647450844,60.06111832212156,56.96078647450844&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.94878647450844,60.04911832212156&zoom=16&size=800x500&markers=56.94878647450844,60.04911832212156,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=66%3A12%3A1602007%3A179",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/66%3A12%3A1602007%3A179",
+    "area_m2": 1269.0,
+    "cadastre_cost_num": 255551.0,
+    "price_sale_num": 250000.0,
+    "area_sotka": 12.7
+  },
+  {
+    "region": "Свердловская область",
+    "place": "д. Черноусова",
+    "settlement": "Черноусова",
+    "cadastre": "66:12:1602007:184",
+    "price_sale": "250000",
+    "cadastre_cost": "248324",
+    "area": "1241",
+    "price_sotka": "200,10",
+    "status": "В аренде",
+    "priority": "12",
+    "density": "0,08",
+    "rent_year": "",
+    "ad": "Продам участок 12,41 сотки в д. Черноусова. Участок с комфортной площадью под дом, дачу, баню, сад и спокойный загородный формат. Кадастровый номер: 66:12:1602007:184. Хорош для тех, кто хочет купить землю по нормальной цене и не переплачивать за “модные” направления. Цена рассчитана на быстрый интерес. Есть рядом другие участки, можно собрать несколько и получить большой земельный массив.",
+    "lat": 56.950463525491564,
+    "lon": 60.048573415225555,
+    "geo_name": "Черноусова",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=60.04507341522555,56.94696352549156,60.05207341522556,56.95396352549157&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=60.036573415225554,56.938463525491564,60.060573415225555,56.962463525491565&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.950463525491564,60.048573415225555&zoom=16&size=800x500&markers=56.950463525491564,60.048573415225555,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=66%3A12%3A1602007%3A184",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/66%3A12%3A1602007%3A184",
+    "area_m2": 1241.0,
+    "cadastre_cost_num": 248324.0,
+    "price_sale_num": 250000.0,
+    "area_sotka": 12.4
+  },
+  {
+    "region": "Амурская область",
+    "place": "п. Мухинский, ул. Пионерская",
+    "settlement": "Мухинский",
+    "cadastre": "28:19:011604:227",
+    "price_sale": "180000",
+    "cadastre_cost": "144484",
+    "area": "800",
+    "price_sotka": "180,61",
+    "status": "В аренде",
+    "priority": "18",
+    "density": "0,02",
+    "rent_year": "",
+    "ad": "Продам участок 8 соток в п. Мухинский, ул. Пионерская. Отличный доступный вариант для дачи, дома, сада или вложения в землю. Площадь удобная: не маленькая, но и не требует большого бюджета. Кадастровый номер: 28:19:011604:227. Цена поставлена привлекательная, чтобы участок быстро ушел реальному покупателю. Если ищете недорогой участок в Амурской области, пишите, покажу документы и условия.",
+    "lat": 51.1215,
+    "lon": 128.38,
+    "geo_name": "Мухинский",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=128.3765,51.117999999999995,128.3835,51.125&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=128.368,51.1095,128.392,51.1335&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=51.1215,128.38&zoom=16&size=800x500&markers=51.1215,128.38,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A19%3A011604%3A227",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/28%3A19%3A011604%3A227",
+    "area_m2": 800.0,
+    "cadastre_cost_num": 144484.0,
+    "price_sale_num": 180000.0,
+    "area_sotka": 8.0
+  },
+  {
+    "region": "Амурская область",
+    "place": "п. Мухинский, ул. Первомайская",
+    "settlement": "Мухинский",
+    "cadastre": "28:19:011603:520",
+    "price_sale": "260000",
+    "cadastre_cost": "215539",
+    "area": "1200",
+    "price_sotka": "179,62",
+    "status": "В аренде",
+    "priority": "16",
+    "density": "0,02",
+    "rent_year": "",
+    "ad": "Продам участок 12 соток в п. Мухинский, ул. Первомайская. Хорошая площадь под дом, дачу, баню, гараж и огород. Участок с понятным адресом и кадастровым номером: 28:19:011603:520. Это не завышенное объявление “на авось”, цена сделана адекватной для быстрой продажи. Подойдет тем, кто хочет землю в поселке и не готов платить лишнее. Пишите, пока актуально.",
+    "lat": 51.1185,
+    "lon": 128.38,
+    "geo_name": "Мухинский",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=128.3765,51.114999999999995,128.3835,51.122&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=128.368,51.1065,128.392,51.1305&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=51.1185,128.38&zoom=16&size=800x500&markers=51.1185,128.38,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A19%3A011603%3A520",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/28%3A19%3A011603%3A520",
+    "area_m2": 1200.0,
+    "cadastre_cost_num": 215539.0,
+    "price_sale_num": 260000.0,
+    "area_sotka": 12.0
+  },
+  {
+    "region": "Амурская область",
+    "place": "Магдагачинский округ с. Тыгда",
+    "settlement": "Тыгда",
+    "cadastre": "28:16:012969:25",
+    "price_sale": "500000",
+    "cadastre_cost": "573361",
+    "area": "2490",
+    "price_sotka": "230,27",
+    "status": "Принято решение, жду договор",
+    "priority": "3",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продам большой участок 24,9 сотки, Магдагачинский округ, с. Тыгда. Почти 25 соток — это уже настоящий простор: дом, баня, гараж, сад, теплицы, хозяйственная зона и еще останется место. Кадастровый номер: 28:16:012969:25. Отличный вариант для тех, кто хочет больше земли за разумные деньги. Цена очень конкурентная для такой площади, поставлена для быстрой продажи. Если ищете участок, который реально дает свободу, пишите сейчас.",
+    "lat": 53.11283,
+    "lon": 126.32979,
+    "geo_name": "Тыгда",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=126.32629,53.10933,126.33329,53.116330000000005&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=126.31779,53.10083,126.34179,53.12483&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=53.11283,126.32979&zoom=16&size=800x500&markers=53.11283,126.32979,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A16%3A012969%3A25",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/28%3A16%3A012969%3A25",
+    "area_m2": 2490.0,
+    "cadastre_cost_num": 573361.0,
+    "price_sale_num": 500000.0,
+    "area_sotka": 24.9
+  },
+  {
+    "region": "Брянская область",
+    "place": "Брянская область, Красногорский муниципальный\nрайон, Красногорское городское поселение, пгт. Красная Гора, ул. Мелиоративная, земельный участок 11",
+    "settlement": "Красная Гора",
+    "cadastre": "32:15:0260904:121",
+    "price_sale": "",
+    "cadastre_cost": "441510",
+    "area": "1500",
+    "price_sotka": "294,34",
+    "status": "В аренде",
+    "priority": "",
+    "density": "",
+    "rent_year": "2649,06",
+    "ad": "Продаётся право аренды земельного участка 15.0 сот. в локации Брянская область, Красногорский муниципальный\nрайон, Красногорское городское поселение, пгт. Красная Гора, ул. Мелиоративная, земельный участок 11. Кадастровый номер 32:15:0260904:121. Кадастровая стоимость 441 510 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 52.9995,
+    "lon": 31.6023,
+    "geo_name": "Красная Гора",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=31.5988,52.995999999999995,31.6058,53.003&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=31.5903,52.9875,31.6143,53.0115&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=52.9995,31.6023&zoom=16&size=800x500&markers=52.9995,31.6023,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=32%3A15%3A0260904%3A121",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/32%3A15%3A0260904%3A121",
+    "area_m2": 1500.0,
+    "cadastre_cost_num": 441510.0,
+    "price_sale_num": null,
+    "area_sotka": 15.0
+  },
+  {
+    "region": "Пермский край",
+    "place": "ул. Подгорная, з/у 13, и. Усть-Койва, Горнозаводский муниципальный округ, Пермский край",
+    "settlement": "Усть-Койва",
+    "cadastre": "59:17:0601004:56",
+    "price_sale": "",
+    "cadastre_cost": "76601,68",
+    "area": "1999",
+    "price_sotka": "38,32",
+    "status": "В аренде",
+    "priority": "",
+    "density": "",
+    "rent_year": "459,61",
+    "ad": "Продаётся право аренды земельного участка 20.0 сот. в локации ул. Подгорная, з/у 13, и. Усть-Койва, Горнозаводский муниципальный округ, Пермский край. Кадастровый номер 59:17:0601004:56. Кадастровая стоимость 76 601 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 58.4,
+    "lon": 58.75,
+    "geo_name": "Усть-Койва",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=58.7465,58.396499999999996,58.7535,58.4035&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=58.738,58.388,58.762,58.412&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=58.4,58.75&zoom=16&size=800x500&markers=58.4,58.75,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=59%3A17%3A0601004%3A56",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/59%3A17%3A0601004%3A56",
+    "area_m2": 1999.0,
+    "cadastre_cost_num": 76601.68,
+    "price_sale_num": null,
+    "area_sotka": 20.0
+  },
+  {
+    "region": "Волгоградская область",
+    "place": "Волгоградская область, Ленинский\nрайон, г. Ленинск, ул.Астраханская, 13",
+    "settlement": "Ленинск",
+    "cadastre": "34:15:080202:1718",
+    "price_sale": "",
+    "cadastre_cost": "185872",
+    "area": "580",
+    "price_sotka": "320,47",
+    "status": "В аренде",
+    "priority": "",
+    "density": "",
+    "rent_year": "595,09",
+    "ad": "Продаётся право аренды земельного участка 5.8 сот. в локации Волгоградская область, Ленинский\nрайон, г. Ленинск, ул.Астраханская, 13. Кадастровый номер 34:15:080202:1718. Кадастровая стоимость 185 872 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 48.70311,
+    "lon": 45.19611,
+    "geo_name": "Ленинск",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=45.192609999999995,48.69961,45.19961,48.706610000000005&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=45.18411,48.69111,45.20811,48.71511&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=48.70311,45.19611&zoom=16&size=800x500&markers=48.70311,45.19611,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=34%3A15%3A080202%3A1718",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/34%3A15%3A080202%3A1718",
+    "area_m2": 580.0,
+    "cadastre_cost_num": 185872.0,
+    "price_sale_num": null,
+    "area_sotka": 5.8
+  },
+  {
+    "region": "Амурская область",
+    "place": "с. Заречная Слобода, ул. Березовая",
+    "settlement": "Заречная Слобода",
+    "cadastre": "28:13:032520:5",
+    "price_sale": "",
+    "cadastre_cost": "226112",
+    "area": "1508",
+    "price_sotka": "149,94",
+    "status": "В аренде",
+    "priority": "",
+    "density": "",
+    "rent_year": "4239,61",
+    "ad": "Продаётся право аренды земельного участка 15.1 сот. в локации с. Заречная Слобода, ул. Березовая. Кадастровый номер 28:13:032520:5. Кадастровая стоимость 226 112 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 53.72096,
+    "lon": 127.27289,
+    "geo_name": "Заречная Слобода",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=127.26939,53.717459999999996,127.27639,53.72446&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=127.26089,53.70896,127.28489,53.73296&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=53.72096,127.27289&zoom=16&size=800x500&markers=53.72096,127.27289,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A13%3A032520%3A5",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/28%3A13%3A032520%3A5",
+    "area_m2": 1508.0,
+    "cadastre_cost_num": 226112.0,
+    "price_sale_num": null,
+    "area_sotka": 15.1
+  },
+  {
+    "region": "Амурская область",
+    "place": "с. Заречная Слобода, ул. Березовая",
+    "settlement": "Заречная Слобода",
+    "cadastre": "28:13:000000:352",
+    "price_sale": "",
+    "cadastre_cost": "353361",
+    "area": "1501",
+    "price_sotka": "235,42",
+    "status": "В аренде",
+    "priority": "",
+    "density": "",
+    "rent_year": "6625,53",
+    "ad": "Продаётся право аренды земельного участка 15.0 сот. в локации с. Заречная Слобода, ул. Березовая. Кадастровый номер 28:13:000000:352. Кадастровая стоимость 353 361 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 53.71871,
+    "lon": 127.27418903810567,
+    "geo_name": "Заречная Слобода",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=127.27068903810567,53.71521,127.27768903810568,53.722210000000004&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=127.26218903810567,53.70671,127.28618903810568,53.73071&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=53.71871,127.27418903810567&zoom=16&size=800x500&markers=53.71871,127.27418903810567,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A13%3A000000%3A352",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/28%3A13%3A000000%3A352",
+    "area_m2": 1501.0,
+    "cadastre_cost_num": 353361.0,
+    "price_sale_num": null,
+    "area_sotka": 15.0
+  },
+  {
+    "region": "Амурская область",
+    "place": "с. Заречная Слобода, ул. Березовая",
+    "settlement": "Заречная Слобода",
+    "cadastre": "28:13:032520:4",
+    "price_sale": "",
+    "cadastre_cost": "225642",
+    "area": "1500",
+    "price_sotka": "150,43",
+    "status": "В аренде",
+    "priority": "",
+    "density": "",
+    "rent_year": "4230,8",
+    "ad": "Продаётся право аренды земельного участка 15.0 сот. в локации с. Заречная Слобода, ул. Березовая. Кадастровый номер 28:13:032520:4. Кадастровая стоимость 225 642 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 53.71871,
+    "lon": 127.27159096189433,
+    "geo_name": "Заречная Слобода",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=127.26809096189433,53.71521,127.27509096189434,53.722210000000004&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=127.25959096189433,53.70671,127.28359096189433,53.73071&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=53.71871,127.27159096189433&zoom=16&size=800x500&markers=53.71871,127.27159096189433,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A13%3A032520%3A4",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/28%3A13%3A032520%3A4",
+    "area_m2": 1500.0,
+    "cadastre_cost_num": 225642.0,
+    "price_sale_num": null,
+    "area_sotka": 15.0
+  },
+  {
+    "region": "Амурская область",
+    "place": "",
+    "settlement": "Амурская область",
+    "cadastre": "28:13:032520:3",
+    "price_sale": "",
+    "cadastre_cost": "225622",
+    "area": "",
+    "price_sotka": "#DIV/0!",
+    "status": "В аренде",
+    "priority": "",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продаётся право аренды земельного участка участок в локации Амурская область. Кадастровый номер 28:13:032520:3. Кадастровая стоимость 225 622 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 53.719,
+    "lon": 127.273,
+    "geo_name": "Заречная Слобода",
+    "geo_source": "manual_fix",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=127.2695,53.7155,127.2765,53.722500000000004&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=127.261,53.707,127.285,53.731&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=53.719,127.273&zoom=16&size=800x500&markers=53.719,127.273,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A13%3A032520%3A3",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/28%3A13%3A032520%3A3",
+    "area_m2": null,
+    "cadastre_cost_num": 225622.0,
+    "price_sale_num": null,
+    "area_sotka": null
+  },
+  {
+    "region": "Амурская область",
+    "place": "",
+    "settlement": "Амурская область",
+    "cadastre": "28:13:032508:6",
+    "price_sale": "",
+    "cadastre_cost": "233995",
+    "area": "",
+    "price_sotka": "#DIV/0!",
+    "status": "В аренде",
+    "priority": "",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продаётся право аренды земельного участка участок в локации Амурская область. Кадастровый номер 28:13:032508:6. Кадастровая стоимость 233 995 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 53.72,
+    "lon": 127.274,
+    "geo_name": "Заречная Слобода",
+    "geo_source": "manual_fix",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=127.2705,53.716499999999996,127.2775,53.7235&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=127.262,53.708,127.286,53.732&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=53.72,127.274&zoom=16&size=800x500&markers=53.72,127.274,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=28%3A13%3A032508%3A6",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/28%3A13%3A032508%3A6",
+    "area_m2": null,
+    "cadastre_cost_num": 233995.0,
+    "price_sale_num": null,
+    "area_sotka": null
+  },
+  {
+    "region": "Вологодская область",
+    "place": "",
+    "settlement": "",
+    "cadastre": "35:16:0301018:362",
+    "price_sale": "",
+    "cadastre_cost": "105201",
+    "area": "",
+    "price_sotka": "#DIV/0!",
+    "status": "В работе",
+    "priority": "",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продаётся право аренды земельного участка участок в локации Вологодская область. Кадастровый номер 35:16:0301018:362. Кадастровая стоимость 105 201 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 59.22,
+    "lon": 39.88,
+    "geo_name": "Вологодская область",
+    "geo_source": "manual_fix",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=39.8765,59.216499999999996,39.883500000000005,59.2235&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=39.868,59.208,39.892,59.232&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=59.22,39.88&zoom=16&size=800x500&markers=59.22,39.88,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=35%3A16%3A0301018%3A362",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/35%3A16%3A0301018%3A362",
+    "area_m2": null,
+    "cadastre_cost_num": 105201.0,
+    "price_sale_num": null,
+    "area_sotka": null
+  },
+  {
+    "region": "",
+    "place": "",
+    "settlement": "",
+    "cadastre": "59:36:0340225:146",
+    "price_sale": "",
+    "cadastre_cost": "158984",
+    "area": "",
+    "price_sotka": "#DIV/0!",
+    "status": "В работе",
+    "priority": "",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продаётся право аренды земельного участка участок в локации 59. Кадастровый номер 59:36:0340225:146. Кадастровая стоимость 158 984 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 58.0115,
+    "lon": 56.25,
+    "geo_name": "59",
+    "geo_source": "region_center",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=56.2465,58.007999999999996,56.2535,58.015&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=56.238,57.9995,56.262,58.0235&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=58.0115,56.25&zoom=16&size=800x500&markers=58.0115,56.25,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=59%3A36%3A0340225%3A146",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/59%3A36%3A0340225%3A146",
+    "area_m2": null,
+    "cadastre_cost_num": 158984.0,
+    "price_sale_num": null,
+    "area_sotka": null
+  },
+  {
+    "region": "Тульская область",
+    "place": "",
+    "settlement": "",
+    "cadastre": "71:16:040403:1018",
+    "price_sale": "",
+    "cadastre_cost": "893145",
+    "area": "",
+    "price_sotka": "#DIV/0!",
+    "status": "В работе",
+    "priority": "",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продаётся право аренды земельного участка участок в локации Тульская область. Кадастровый номер 71:16:040403:1018. Кадастровая стоимость 893 145 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 54.19,
+    "lon": 37.62,
+    "geo_name": "Тульская область",
+    "geo_source": "manual_fix",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=37.616499999999995,54.186499999999995,37.6235,54.1935&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=37.608,54.178,37.632,54.202&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=54.19,37.62&zoom=16&size=800x500&markers=54.19,37.62,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=71%3A16%3A040403%3A1018",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/71%3A16%3A040403%3A1018",
+    "area_m2": null,
+    "cadastre_cost_num": 893145.0,
+    "price_sale_num": null,
+    "area_sotka": null
+  },
+  {
+    "region": "",
+    "place": "",
+    "settlement": "",
+    "cadastre": "59:20:0970101:210",
+    "price_sale": "",
+    "cadastre_cost": "87239",
+    "area": "",
+    "price_sotka": "#DIV/0!",
+    "status": "В работе",
+    "priority": "",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продаётся право аренды земельного участка участок в локации 59. Кадастровый номер 59:20:0970101:210. Кадастровая стоимость 87 239 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 58.01,
+    "lon": 56.2515,
+    "geo_name": "59",
+    "geo_source": "region_center",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=56.248,58.006499999999996,56.255,58.0135&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=56.2395,57.998,56.2635,58.022&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=58.01,56.2515&zoom=16&size=800x500&markers=58.01,56.2515,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=59%3A20%3A0970101%3A210",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/59%3A20%3A0970101%3A210",
+    "area_m2": null,
+    "cadastre_cost_num": 87239.0,
+    "price_sale_num": null,
+    "area_sotka": null
+  },
+  {
+    "region": "Курганская область",
+    "place": "",
+    "settlement": "",
+    "cadastre": "45:04:040101:245",
+    "price_sale": "",
+    "cadastre_cost": "35377",
+    "area": "",
+    "price_sotka": "#DIV/0!",
+    "status": "Отправил договор",
+    "priority": "",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продаётся право аренды земельного участка участок в локации Курганская область. Кадастровый номер 45:04:040101:245. Кадастровая стоимость 35 377 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 56.08,
+    "lon": 63.63,
+    "geo_name": "Курганская область",
+    "geo_source": "manual_fix",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=63.6265,56.076499999999996,63.633500000000005,56.0835&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=63.618,56.068,63.642,56.092&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.08,63.63&zoom=16&size=800x500&markers=56.08,63.63,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=45%3A04%3A040101%3A245",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/45%3A04%3A040101%3A245",
+    "area_m2": null,
+    "cadastre_cost_num": 35377.0,
+    "price_sale_num": null,
+    "area_sotka": null
+  },
+  {
+    "region": "Курганская область",
+    "place": "",
+    "settlement": "",
+    "cadastre": "45:04:010802:107",
+    "price_sale": "",
+    "cadastre_cost": "55890",
+    "area": "",
+    "price_sotka": "#DIV/0!",
+    "status": "Отправил договор",
+    "priority": "",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продаётся право аренды земельного участка участок в локации Курганская область. Кадастровый номер 45:04:010802:107. Кадастровая стоимость 55 890 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 56.09,
+    "lon": 63.64,
+    "geo_name": "Курганская область",
+    "geo_source": "manual_fix",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=63.6365,56.0865,63.6435,56.093500000000006&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=63.628,56.078,63.652,56.102000000000004&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.09,63.64&zoom=16&size=800x500&markers=56.09,63.64,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=45%3A04%3A010802%3A107",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/45%3A04%3A010802%3A107",
+    "area_m2": null,
+    "cadastre_cost_num": 55890.0,
+    "price_sale_num": null,
+    "area_sotka": null
+  },
+  {
+    "region": "Курганская область",
+    "place": "",
+    "settlement": "",
+    "cadastre": "45:04:012101:473",
+    "price_sale": "",
+    "cadastre_cost": "58043",
+    "area": "",
+    "price_sotka": "#DIV/0!",
+    "status": "Отправил договор",
+    "priority": "",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продаётся право аренды земельного участка участок в локации Курганская область. Кадастровый номер 45:04:012101:473. Кадастровая стоимость 58 043 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 56.07,
+    "lon": 63.61,
+    "geo_name": "Курганская область",
+    "geo_source": "manual_fix",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=63.6065,56.0665,63.6135,56.0735&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=63.598,56.058,63.622,56.082&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.07,63.61&zoom=16&size=800x500&markers=56.07,63.61,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=45%3A04%3A012101%3A473",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/45%3A04%3A012101%3A473",
+    "area_m2": null,
+    "cadastre_cost_num": 58043.0,
+    "price_sale_num": null,
+    "area_sotka": null
+  },
+  {
+    "region": "Курганская область",
+    "place": "",
+    "settlement": "",
+    "cadastre": "45:04:040101:452",
+    "price_sale": "",
+    "cadastre_cost": "55918",
+    "area": "",
+    "price_sotka": "#DIV/0!",
+    "status": "Отправил договор",
+    "priority": "",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продаётся право аренды земельного участка участок в локации Курганская область. Кадастровый номер 45:04:040101:452. Кадастровая стоимость 55 918 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 56.085,
+    "lon": 63.635,
+    "geo_name": "Курганская область",
+    "geo_source": "manual_fix",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=63.631499999999996,56.0815,63.6385,56.0885&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=63.623,56.073,63.647,56.097&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.085,63.635&zoom=16&size=800x500&markers=56.085,63.635,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=45%3A04%3A040101%3A452",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/45%3A04%3A040101%3A452",
+    "area_m2": null,
+    "cadastre_cost_num": 55918.0,
+    "price_sale_num": null,
+    "area_sotka": null
+  },
+  {
+    "region": "Курганская область",
+    "place": "",
+    "settlement": "",
+    "cadastre": "45:04:011501:226",
+    "price_sale": "",
+    "cadastre_cost": "41939",
+    "area": "",
+    "price_sotka": "#DIV/0!",
+    "status": "Отправил договор",
+    "priority": "",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продаётся право аренды земельного участка участок в локации Курганская область. Кадастровый номер 45:04:011501:226. Кадастровая стоимость 41 939 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 56.075,
+    "lon": 63.625,
+    "geo_name": "Курганская область",
+    "geo_source": "manual_fix",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=63.6215,56.0715,63.6285,56.078500000000005&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=63.613,56.063,63.637,56.087&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.075,63.625&zoom=16&size=800x500&markers=56.075,63.625,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=45%3A04%3A011501%3A226",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/45%3A04%3A011501%3A226",
+    "area_m2": null,
+    "cadastre_cost_num": 41939.0,
+    "price_sale_num": null,
+    "area_sotka": null
+  },
+  {
+    "region": "Астраханская область",
+    "place": "",
+    "settlement": "",
+    "cadastre": "30:07:240101:1853",
+    "price_sale": "",
+    "cadastre_cost": "184575",
+    "area": "",
+    "price_sotka": "#DIV/0!",
+    "status": "Отправил договор",
+    "priority": "",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продаётся право аренды земельного участка участок в локации Астраханская область. Кадастровый номер 30:07:240101:1853. Кадастровая стоимость 184 575 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 46.68,
+    "lon": 47.85,
+    "geo_name": "Астраханская область",
+    "geo_source": "manual_fix",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=47.8465,46.6765,47.853500000000004,46.6835&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=47.838,46.668,47.862,46.692&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=46.68,47.85&zoom=16&size=800x500&markers=46.68,47.85,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=30%3A07%3A240101%3A1853",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/30%3A07%3A240101%3A1853",
+    "area_m2": null,
+    "cadastre_cost_num": 184575.0,
+    "price_sale_num": null,
+    "area_sotka": null
+  },
+  {
+    "region": "Астраханская область",
+    "place": "",
+    "settlement": "",
+    "cadastre": "30:07:250301:675",
+    "price_sale": "",
+    "cadastre_cost": "158410",
+    "area": "",
+    "price_sotka": "#DIV/0!",
+    "status": "Отправил договор",
+    "priority": "",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продаётся право аренды земельного участка участок в локации Астраханская область. Кадастровый номер 30:07:250301:675. Кадастровая стоимость 158 410 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 46.69,
+    "lon": 47.86,
+    "geo_name": "Астраханская область",
+    "geo_source": "manual_fix",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=47.8565,46.686499999999995,47.8635,46.6935&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=47.848,46.678,47.872,46.702&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=46.69,47.86&zoom=16&size=800x500&markers=46.69,47.86,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=30%3A07%3A250301%3A675",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/30%3A07%3A250301%3A675",
+    "area_m2": null,
+    "cadastre_cost_num": 158410.0,
+    "price_sale_num": null,
+    "area_sotka": null
+  },
+  {
+    "region": "Астраханская область",
+    "place": "",
+    "settlement": "",
+    "cadastre": "30:07:250301:676",
+    "price_sale": "",
+    "cadastre_cost": "158410",
+    "area": "",
+    "price_sotka": "#DIV/0!",
+    "status": "Отправил договор",
+    "priority": "",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продаётся право аренды земельного участка участок в локации Астраханская область. Кадастровый номер 30:07:250301:676. Кадастровая стоимость 158 410 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 46.695,
+    "lon": 47.855,
+    "geo_name": "Астраханская область",
+    "geo_source": "manual_fix",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=47.851499999999994,46.6915,47.8585,46.6985&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=47.842999999999996,46.683,47.867,46.707&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=46.695,47.855&zoom=16&size=800x500&markers=46.695,47.855,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=30%3A07%3A250301%3A676",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/30%3A07%3A250301%3A676",
+    "area_m2": null,
+    "cadastre_cost_num": 158410.0,
+    "price_sale_num": null,
+    "area_sotka": null
+  },
+  {
+    "region": "Астраханская область",
+    "place": "",
+    "settlement": "",
+    "cadastre": "30:07:250301:677",
+    "price_sale": "",
+    "cadastre_cost": "198855",
+    "area": "",
+    "price_sotka": "#DIV/0!",
+    "status": "Отправил договор",
+    "priority": "",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продаётся право аренды земельного участка участок в локации Астраханская область. Кадастровый номер 30:07:250301:677. Кадастровая стоимость 198 855 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 46.685,
+    "lon": 47.865,
+    "geo_name": "Астраханская область",
+    "geo_source": "manual_fix",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=47.8615,46.6815,47.868500000000004,46.688500000000005&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=47.853,46.673,47.877,46.697&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=46.685,47.865&zoom=16&size=800x500&markers=46.685,47.865,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=30%3A07%3A250301%3A677",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/30%3A07%3A250301%3A677",
+    "area_m2": null,
+    "cadastre_cost_num": 198855.0,
+    "price_sale_num": null,
+    "area_sotka": null
+  },
+  {
+    "region": "Астраханская область",
+    "place": "",
+    "settlement": "",
+    "cadastre": "30:07:250501:5687",
+    "price_sale": "",
+    "cadastre_cost": "120870",
+    "area": "",
+    "price_sotka": "#DIV/0!",
+    "status": "Отправил договор",
+    "priority": "",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продаётся право аренды земельного участка участок в локации Астраханская область. Кадастровый номер 30:07:250501:5687. Кадастровая стоимость 120 870 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 46.7,
+    "lon": 47.84,
+    "geo_name": "Астраханская область",
+    "geo_source": "manual_fix",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=47.8365,46.6965,47.843500000000006,46.703500000000005&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=47.828,46.688,47.852000000000004,46.712&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=46.7,47.84&zoom=16&size=800x500&markers=46.7,47.84,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=30%3A07%3A250501%3A5687",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/30%3A07%3A250501%3A5687",
+    "area_m2": null,
+    "cadastre_cost_num": 120870.0,
+    "price_sale_num": null,
+    "area_sotka": null
+  },
+  {
+    "region": "Курганская область",
+    "place": "п. Ключи, ул. Зелёная, 16",
+    "settlement": "Ключи",
+    "cadastre": "45:06:040401:49",
+    "price_sale": "",
+    "cadastre_cost": "13871",
+    "area": "",
+    "price_sotka": "#DIV/0!",
+    "status": "Отправил договор",
+    "priority": "",
+    "density": "",
+    "rent_year": "83",
+    "ad": "Продаётся право аренды земельного участка участок в локации п. Ключи, ул. Зелёная, 16. Кадастровый номер 45:06:040401:49. Кадастровая стоимость 13 871 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 56.08,
+    "lon": 63.62,
+    "geo_name": "п. Ключи, Курганская область",
+    "geo_source": "manual_fix",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=63.616499999999995,56.076499999999996,63.6235,56.0835&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=63.608,56.068,63.632,56.092&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=56.08,63.62&zoom=16&size=800x500&markers=56.08,63.62,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=45%3A06%3A040401%3A49",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/45%3A06%3A040401%3A49",
+    "area_m2": null,
+    "cadastre_cost_num": 13871.0,
+    "price_sale_num": null,
+    "area_sotka": null
+  },
+  {
+    "region": "Забайкальский край",
+    "place": "",
+    "settlement": "",
+    "cadastre": "75:19:170131:251",
+    "price_sale": "",
+    "cadastre_cost": "271920",
+    "area": "",
+    "price_sotka": "#DIV/0!",
+    "status": "Отправил договор",
+    "priority": "",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продаётся право аренды земельного участка участок в локации Забайкальский край. Кадастровый номер 75:19:170131:251. Кадастровая стоимость 271 920 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 52.03,
+    "lon": 113.5,
+    "geo_name": "Забайкальский край",
+    "geo_source": "manual_fix",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=113.4965,52.0265,113.5035,52.033500000000004&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=113.488,52.018,113.512,52.042&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=52.03,113.5&zoom=16&size=800x500&markers=52.03,113.5,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=75%3A19%3A170131%3A251",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/75%3A19%3A170131%3A251",
+    "area_m2": null,
+    "cadastre_cost_num": 271920.0,
+    "price_sale_num": null,
+    "area_sotka": null
+  },
+  {
+    "region": "Новгородская область",
+    "place": "Новгородская область, Пестовский муниципальный район, Вятское сельское поселение, д. Вятка, улица Школьная, земельный участок 7",
+    "settlement": "Вятка",
+    "cadastre": "53:14:0901801:266",
+    "price_sale": "",
+    "cadastre_cost": "211011",
+    "area": "1500",
+    "price_sotka": "140,67",
+    "status": "Отправил договор",
+    "priority": "",
+    "density": "",
+    "rent_year": "3165",
+    "ad": "Продаётся право аренды земельного участка 15.0 сот. в локации Новгородская область, Пестовский муниципальный район, Вятское сельское поселение, д. Вятка, улица Школьная, земельный участок 7. Кадастровый номер 53:14:0901801:266. Кадастровая стоимость 211 011 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 58.62,
+    "lon": 35.78,
+    "geo_name": "Вятка",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=35.7765,58.616499999999995,35.783500000000004,58.6235&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=35.768,58.608,35.792,58.632&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=58.62,35.78&zoom=16&size=800x500&markers=58.62,35.78,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=53%3A14%3A0901801%3A266",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/53%3A14%3A0901801%3A266",
+    "area_m2": 1500.0,
+    "cadastre_cost_num": 211011.0,
+    "price_sale_num": null,
+    "area_sotka": 15.0
+  },
+  {
+    "region": "Новгородская область",
+    "place": "Новгородская область, Пестовский муниципальный район, Охонское сельское поселение, д. Комзово, земельный участок 5",
+    "settlement": "Комзово",
+    "cadastre": "53:14:1204901:212",
+    "price_sale": "",
+    "cadastre_cost": "303926",
+    "area": "2000",
+    "price_sotka": "151,96",
+    "status": "Отправил договор",
+    "priority": "",
+    "density": "",
+    "rent_year": "1519",
+    "ad": "Продаётся право аренды земельного участка 20.0 сот. в локации Новгородская область, Пестовский муниципальный район, Охонское сельское поселение, д. Комзово, земельный участок 5. Кадастровый номер 53:14:1204901:212. Кадастровая стоимость 303 926 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 58.55,
+    "lon": 35.7,
+    "geo_name": "Комзово",
+    "geo_source": "geocode",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=35.6965,58.546499999999995,35.703500000000005,58.5535&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=35.688,58.538,35.712,58.562&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=58.55,35.7&zoom=16&size=800x500&markers=58.55,35.7,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=53%3A14%3A1204901%3A212",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/53%3A14%3A1204901%3A212",
+    "area_m2": 2000.0,
+    "cadastre_cost_num": 303926.0,
+    "price_sale_num": null,
+    "area_sotka": 20.0
+  },
+  {
+    "region": "",
+    "place": "",
+    "settlement": "",
+    "cadastre": "59:39:0010308:81",
+    "price_sale": "",
+    "cadastre_cost": "99728",
+    "area": "",
+    "price_sotka": "#DIV/0!",
+    "status": "В работе",
+    "priority": "",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продаётся право аренды земельного участка участок в локации 59. Кадастровый номер 59:39:0010308:81. Кадастровая стоимость 99 728 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 58.0085,
+    "lon": 56.25,
+    "geo_name": "59",
+    "geo_source": "region_center",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=56.2465,58.004999999999995,56.2535,58.012&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=56.238,57.9965,56.262,58.0205&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=58.0085,56.25&zoom=16&size=800x500&markers=58.0085,56.25,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=59%3A39%3A0010308%3A81",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/59%3A39%3A0010308%3A81",
+    "area_m2": null,
+    "cadastre_cost_num": 99728.0,
+    "price_sale_num": null,
+    "area_sotka": null
+  },
+  {
+    "region": "",
+    "place": "",
+    "settlement": "",
+    "cadastre": "59:39:0010302:33",
+    "price_sale": "",
+    "cadastre_cost": "84665",
+    "area": "",
+    "price_sotka": "#DIV/0!",
+    "status": "В работе",
+    "priority": "",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продаётся право аренды земельного участка участок в локации 59. Кадастровый номер 59:39:0010302:33. Кадастровая стоимость 84 665 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 58.01,
+    "lon": 56.2485,
+    "geo_name": "59",
+    "geo_source": "region_center",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=56.245,58.006499999999996,56.252,58.0135&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=56.2365,57.998,56.2605,58.022&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=58.01,56.2485&zoom=16&size=800x500&markers=58.01,56.2485,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=59%3A39%3A0010302%3A33",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/59%3A39%3A0010302%3A33",
+    "area_m2": null,
+    "cadastre_cost_num": 84665.0,
+    "price_sale_num": null,
+    "area_sotka": null
+  },
+  {
+    "region": "Воронежская область",
+    "place": "",
+    "settlement": "",
+    "cadastre": "36:08:0800001:21",
+    "price_sale": "",
+    "cadastre_cost": "321850",
+    "area": "",
+    "price_sotka": "#DIV/0!",
+    "status": "В работе",
+    "priority": "",
+    "density": "",
+    "rent_year": "",
+    "ad": "Продаётся право аренды земельного участка участок в локации Воронежская область. Кадастровый номер 36:08:0800001:21. Кадастровая стоимость 321 850 ₽. Участок подходит под ИЖС/ЛПХ — дом, баня, сад. Документы в порядке, покажем и ответим на вопросы.",
+    "lat": 51.67,
+    "lon": 39.18,
+    "geo_name": "Воронежская область",
+    "geo_source": "manual_fix",
+    "photos": [
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=39.1765,51.6665,39.1835,51.673500000000004&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Спутниковый снимок участка"
+      },
+      {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=39.168,51.658,39.192,51.682&bboxSR=4326&imageSR=4326&size=800,500&format=jpg&f=image",
+        "caption": "Окрестности со спутника"
+      },
+      {
+        "url": "https://staticmap.openstreetmap.de/staticmap.php?center=51.67,39.18&zoom=16&size=800x500&markers=51.67,39.18,red-pushpin",
+        "caption": "Карта местности"
+      }
+    ],
+    "nspd_url": "https://nspd.gov.ru/map?cad_num=36%3A08%3A0800001%3A21",
+    "pkk_url": "https://pkk.rosreestr.ru/#/search/36%3A08%3A0800001%3A21",
+    "area_m2": null,
+    "cadastre_cost_num": 321850.0,
+    "price_sale_num": null,
+    "area_sotka": null
+  }
+]
