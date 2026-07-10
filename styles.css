@@ -66,11 +66,39 @@ button, select, input { font: inherit; }
   background: var(--green);
   color: #fff !important;
 }
+.nav-phone {
+  font-weight: 700;
+  color: var(--ink) !important;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
 .nav-tg {
   padding: 8px 14px;
   border-radius: 999px;
   background: #2aabee;
   color: #fff !important;
+}
+
+.badge-est {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: #7a5a00;
+  background: #ffe9a8;
+  vertical-align: middle;
+}
+.catalog-card .badge-est {
+  margin: 0 0 8px;
+}
+
+.map-card-note {
+  margin: 0 0 12px;
+  font-size: 0.82rem;
+  line-height: 1.4;
+  color: var(--muted);
 }
 
 .hero {
@@ -731,7 +759,7 @@ body.modal-open .leaflet-control {
     max-width: none;
     max-height: 55%;
   }
-  .nav a:not(.nav-cta):not(.nav-tg) { display: none; }
+  .nav a:not(.nav-cta):not(.nav-tg):not(.nav-phone) { display: none; }
   .hero-stats { grid-template-columns: 1fr 1fr 1fr; }
 }
 
