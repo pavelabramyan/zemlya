@@ -66,6 +66,12 @@ button, select, input { font: inherit; }
   background: var(--green);
   color: #fff !important;
 }
+.nav-tg {
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #2aabee;
+  color: #fff !important;
+}
 
 .hero {
   position: relative;
@@ -149,6 +155,12 @@ button, select, input { font: inherit; }
   color: #fff;
 }
 .btn-primary:hover { background: #a84b1d; }
+.btn-tg {
+  background: #2aabee;
+  color: #fff !important;
+  border-color: transparent;
+}
+.btn-tg:hover { background: #229ed9; }
 .btn-ghost {
   background: rgba(255, 255, 255, 0.12);
   border-color: rgba(255, 255, 255, 0.35);
@@ -388,32 +400,14 @@ button, select, input { font: inherit; }
   box-shadow: var(--shadow);
 }
 .contact-card > p { color: rgba(247, 243, 235, 0.82); }
-.lead-form {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 14px;
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
   margin-top: 22px;
 }
-.lead-form label {
-  display: grid;
-  gap: 8px;
-  font-size: 0.88rem;
-}
-.lead-form label:nth-child(3),
-.lead-form button {
-  grid-column: 1 / -1;
-}
-.lead-form input {
-  padding: 12px 14px;
-  border-radius: 12px;
-  border: 1px solid rgba(255,255,255,0.22);
-  background: rgba(255,255,255,0.1);
-  color: #fff;
-}
-.lead-form input::placeholder { color: rgba(255,255,255,0.55); }
-.form-note {
-  margin: 14px 0 0;
-  opacity: 0.85;
+.lead-form {
+  display: none;
 }
 
 .footer {
@@ -432,49 +426,60 @@ button, select, input { font: inherit; }
   letter-spacing: 0.06em;
 }
 
-/* Avito-like price markers */
-.price-marker {
-  background: #fff;
-  border: 1px solid rgba(28, 36, 28, 0.12);
-  box-shadow: 0 6px 18px rgba(28, 36, 28, 0.18);
-  color: #1c241c;
-  font-family: var(--font-body);
-  font-weight: 800;
-  font-size: 13px;
-  line-height: 1;
-  padding: 8px 10px;
-  border-radius: 10px;
-  white-space: nowrap;
-  transform: translate(-50%, -100%);
-  position: relative;
-  transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease;
+/* Маркеры как на Авито */
+.avito-marker-wrap {
+  background: transparent !important;
+  border: none !important;
 }
-.price-marker::after {
+.avito-pin {
+  position: relative;
+  transform: translate(-50%, calc(-100% - 6px));
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: #fff;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.1;
+  white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.28);
+  border: none;
+  cursor: pointer;
+  transition: transform 0.12s ease, background 0.12s ease, color 0.12s ease;
+}
+.avito-pin::after {
   content: "";
   position: absolute;
   left: 50%;
-  bottom: -6px;
-  width: 12px;
-  height: 12px;
+  bottom: -5px;
+  width: 10px;
+  height: 10px;
   background: inherit;
-  border-right: 1px solid rgba(28, 36, 28, 0.12);
-  border-bottom: 1px solid rgba(28, 36, 28, 0.12);
   transform: translateX(-50%) rotate(45deg);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.12);
+  z-index: -1;
 }
-.price-marker:hover,
-.price-marker.active {
+.avito-pin:hover,
+.avito-pin.is-active {
   background: #00a046;
   color: #fff;
-  border-color: #00a046;
-  transform: translate(-50%, -100%) scale(1.06);
-  z-index: 10;
+  transform: translate(-50%, calc(-100% - 6px)) scale(1.04);
+  z-index: 20;
 }
-.price-marker:hover::after,
-.price-marker.active::after {
-  border-color: #00a046;
-}
+.price-marker { display: none; }
 
-.leaflet-container { font: inherit; background: #d9e4d4; }
+.leaflet-container {
+  font: inherit;
+  background: #e8eef3;
+}
+.leaflet-control-attribution,
+.leaflet-control-attribution a {
+  display: none !important;
+}
 
 /* Пока открыта карточка — карта не может перекрыть модалку */
 body.modal-open .map-shell,
