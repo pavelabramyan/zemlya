@@ -245,6 +245,9 @@ button, select, input { font: inherit; }
   grid-template-columns: 1.7fr 0.9fr;
   gap: 16px;
   min-height: 640px;
+  position: relative;
+  z-index: 1;
+  isolation: isolate;
 }
 
 #leaflet-map {
@@ -253,6 +256,9 @@ button, select, input { font: inherit; }
   overflow: hidden;
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
+  isolation: isolate;
+  z-index: 1;
+  position: relative;
 }
 
 .map-side {
@@ -474,7 +480,7 @@ button, select, input { font: inherit; }
 .modal {
   position: fixed;
   inset: 0;
-  z-index: 100;
+  z-index: 10000; /* выше Leaflet (pane ~400–700, controls ~1000) */
   display: grid;
   place-items: center;
   padding: 18px;
@@ -484,6 +490,7 @@ button, select, input { font: inherit; }
   inset: 0;
   background: rgba(18, 24, 18, 0.55);
   backdrop-filter: blur(4px);
+  z-index: 0;
 }
 .modal-card {
   position: relative;
