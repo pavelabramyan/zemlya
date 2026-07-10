@@ -57,7 +57,7 @@
     price: document.getElementById("map-card-price"),
     specs: document.getElementById("map-card-specs"),
     desc: document.getElementById("map-card-desc"),
-    nspd: document.getElementById("map-card-nspd"),
+    mapRu: document.getElementById("map-card-mapru"),
     note: document.getElementById("map-card-note"),
     statCount: document.getElementById("stat-count"),
     statRegions: document.getElementById("stat-regions"),
@@ -86,7 +86,13 @@
     });
   }
 
-  /** Реальный контур НСПД, иначе приближение по площади. */
+  /** Ссылка на участок на map.ru (публичная кадастровая карта). */
+  function mapRuUrl(plot) {
+    const kad = encodeURIComponent(String(plot.cadastre || "").trim());
+    return kad ? `https://map.ru/pkk?kad=${kad}&z=17` : "https://map.ru/pkk";
+  }
+
+  /** Реальный контур по данным кадастра, иначе приближение по площади. */
   function plotPolygon(plot) {
     if (Array.isArray(plot.leaflet_ring) && plot.leaflet_ring.length >= 3) {
       return plot.leaflet_ring;
@@ -195,7 +201,7 @@
     els.desc.textContent = plot.ad || "";
     els.photo.src = plot.photos?.[0]?.url || "";
     els.photo.alt = `Спутник: ${titleOf(plot)}`;
-    els.nspd.href = plot.nspd_url || plot.pkk_url || "#";
+    els.mapRu.href = mapRuUrl(plot);
 
     const areaText = plot.area_sotka
       ? `${String(plot.area_sotka).replace(/\.0$/, "")} сот. (${Math.round(plot.area_m2)} м²)${plot.area_estimated ? " · ориентир." : ""}`
@@ -212,10 +218,10 @@
 
     if (els.note) {
       els.note.textContent = plot.leaflet_ring
-        ? "Жёлтый контур — границы участка по данным НСПД."
+        ? "Жёлтый контур — границы участка. Точные данные — на map.ru."
         : plot.area_estimated
-          ? "Жёлтый контур и площадь — ориентировочные. Точные границы подтвердим по ЕГРН / НСПД."
-          : "Жёлтый контур ориентировочный. Точные границы — в НСПД / выписке ЕГРН.";
+          ? "Жёлтый контур и площадь — ориентировочные. Точные границы — на map.ru / в выписке ЕГРН."
+          : "Жёлтый контур ориентировочный. Точные границы — на map.ru / в выписке ЕГРН.";
     }
   }
 
