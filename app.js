@@ -4,12 +4,16 @@
     return `${Math.round(Number(n)).toLocaleString("ru-RU")} ₽`;
   };
 
-  const shortMoney = (n) => {
+  // Как на Авито: «250 000 ₽» / «1,2 млн ₽»
+  const avitoMoney = (n) => {
     if (n == null || Number.isNaN(Number(n))) return "—";
-    const v = Number(n);
-    if (v >= 1_000_000) return `${(v / 1_000_000).toFixed(v >= 10_000_000 ? 1 : 2).replace(/\.0$/, "")} млн ₽`;
-    if (v >= 1000) return `${Math.round(v / 1000)} тыс. ₽`;
-    return money(v);
+    const v = Math.round(Number(n));
+    if (v >= 1_000_000) {
+      const m = v / 1_000_000;
+      const s = m >= 10 ? m.toFixed(1) : m.toFixed(1);
+      return `${s.replace(".0", "").replace(".", ",")} млн ₽`;
+    }
+    return `${v.toLocaleString("ru-RU")} ₽`;
   };
 
   const placeLabel = (p) =>
@@ -60,11 +64,11 @@
   }
 
   function priceIcon(plot, active = false) {
-    const label = shortMoney(plot.cadastre_cost_num);
+    const label = avitoMoney(plot.cadastre_cost_num);
     return L.divIcon({
-      className: "",
-      html: `<div class="price-marker${active ? " active" : ""}">${label}</div>`,
-      iconSize: [0, 0],
+      className: "avito-marker-wrap",
+      html: `<div class="avito-pin${active ? " is-active" : ""}"><span>${label}</span></div>`,
+      iconSize: [1, 1],
       iconAnchor: [0, 0],
     });
   }
@@ -83,7 +87,7 @@
     });
     if (list.length) {
       const bounds = L.latLngBounds(list.map((p) => [p.lat, p.lon]));
-      map.fitBounds(bounds.pad(0.18), { maxZoom: 6 });
+      map.fitBounds(bounds.pad(0.18), { maxZoom: 11 });
     }
   }
 
@@ -155,29 +159,15 @@
     els.price.textContent = money(plot.cadastre_cost_num);
     els.desc.textContent = plot.ad || "";
     els.nspd.href = plot.nspd_url || plot.pkk_url || "#";
-    els.cta.onclick = () => {
-      closeModal();
-      const input = els.form.querySelector('[name="plot"]');
-      if (input) input.value = plot.cadastre;
-    };
+    els.cta.href = "tel:+79295154970";
 
-    const perSotka =
-      plot.cadastre_cost_num && plot.area_sotka
-        ? money(plot.cadastre_cost_num / plot.area_sotka)
-        : "—";
     els.specs.innerHTML = [
       ["Кадастровый номер", plot.cadastre],
-      ["Площадь", plot.area_sotka ? `${plot.area_sotka} сот. (${plot.area_m2} м²)` : "—"],
+      ["Площадь", plot.area_sotka ? `${plot.area_sotka} сот. (${Math.round(plot.area_m2)} м²)` : "—"],
       ["Кадастровая стоимость", money(plot.cadastre_cost_num)],
-      ["Цена за сотку (кадастр)", perSotka],
-      ["Статус", plot.status || "—"],
-      ["Аренда в год", plot.rent_year ? money(Number(String(plot.rent_year).replace(",", "."))) : "—"],
-      ["Координаты", `${plot.lat.toFixed(5)}, ${plot.lon.toFixed(5)}`],
-      ["Плотность", plot.density ? `${plot.density} чел/га` : "—"],
+      ["Координаты", `${Number(plot.lat).toFixed(5)}, ${Number(plot.lon).toFixed(5)}`],
     ]
-      .map(
-        ([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`
-      )
+      .map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`)
       .join("");
 
     els.modal.hidden = false;
@@ -204,22 +194,15 @@
     map = L.map("leaflet-map", {
       zoomControl: true,
       scrollWheelZoom: true,
+      attributionControl: false,
     }).setView([58.5, 70], 3);
 
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
-      attribution: '&copy; OpenStreetMap &copy; CARTO',
-      maxZoom: 19,
-      subdomains: "abcd",
+    // Тайлы 2ГИС (как у 2GIS)
+    L.tileLayer("https://tile{s}.maps.2gis.com/tiles?x={x}&y={y}&z={z}", {
+      subdomains: ["0", "1", "2", "3"],
+      maxZoom: 18,
+      attribution: "",
     }).addTo(map);
-
-    L.tileLayer(
-      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-      {
-        opacity: 0.0,
-        maxZoom: 19,
-        attribution: "Esri",
-      }
-    );
 
     plots.forEach((p) => {
       const marker = L.marker([p.lat, p.lon], {
@@ -249,7 +232,7 @@
     const sum = plots.reduce((acc, p) => acc + (p.cadastre_cost_num || 0), 0);
     els.statCount.textContent = String(plots.length);
     els.statRegions.textContent = String(regions.size);
-    els.statValue.textContent = shortMoney(sum);
+    els.statValue.textContent = avitoMoney(sum);
   }
 
   document.addEventListener("click", (e) => {
@@ -268,21 +251,17 @@
   els.region.addEventListener("change", refresh);
   els.sort.addEventListener("change", refresh);
 
-  els.form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    const data = new FormData(els.form);
-    const name = data.get("name");
-    const contact = data.get("contact");
-    const plot = data.get("plot") || "не указан";
-    const text = `Заявка ЗЕМЛЯ\nИмя: ${name}\nКонтакт: ${contact}\nУчасток: ${plot}`;
-    if (navigator.clipboard?.writeText) {
-      navigator.clipboard.writeText(text).catch(() => {});
-    }
-    els.formNote.hidden = false;
-    els.formNote.textContent =
-      "Заявка скопирована. Напишите её владельцу через Telegram/WhatsApp или Issues на GitHub — ответим по документам.";
-    els.form.reset();
-  });
+  if (els.form) {
+    els.form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const data = new FormData(els.form);
+      const plot = data.get("plot") || "";
+      const text = encodeURIComponent(
+        `Здравствуйте! Интересует участок ${plot || "с сайта ЗЕМЛЯ"}. Имя: ${data.get("name")}`
+      );
+      window.location.href = `https://t.me/pavelabramyan?text=${text}`;
+    });
+  }
 
   fetch("data/plots.json")
     .then((r) => r.json())
