@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="styles.css?v=4" />
+  <link rel="stylesheet" href="styles.css?v=5" />
 </head>
 <body>
   <header class="topbar">
@@ -48,7 +48,7 @@
       <div class="map-head">
         <div>
           <h2>Карта участков</h2>
-          <p>Нажмите на цену — откроется карточка с характеристиками, описанием и спутниковыми фото.</p>
+          <p>Нажмите на цену — карта приблизит участок, покажет жёлтый контур и карточку прямо на карте.</p>
         </div>
         <div class="map-filters">
           <label class="filter">
@@ -69,9 +69,29 @@
         </div>
       </div>
       <div class="map-shell">
-        <div id="leaflet-map" role="application" aria-label="Карта участков России"></div>
+        <div class="map-stage">
+          <div id="leaflet-map" role="application" aria-label="Карта участков России"></div>
+          <article class="map-card" id="map-card" hidden>
+            <button type="button" class="map-card-close" id="map-card-close" aria-label="Закрыть">×</button>
+            <div class="map-card-media">
+              <img id="map-card-photo" alt="Спутниковый снимок участка" />
+            </div>
+            <div class="map-card-body">
+              <p class="map-card-region" id="map-card-region"></p>
+              <h3 id="map-card-title"></h3>
+              <p class="map-card-price" id="map-card-price"></p>
+              <dl class="specs" id="map-card-specs"></dl>
+              <p class="map-card-desc" id="map-card-desc"></p>
+              <div class="map-card-actions">
+                <a class="btn btn-primary" href="tel:+79295154970">Позвонить</a>
+                <a class="btn btn-tg" href="https://t.me/pavelabramyan" target="_blank" rel="noopener">Telegram</a>
+                <a class="btn btn-ghost" id="map-card-nspd" target="_blank" rel="noopener">НСПД</a>
+              </div>
+            </div>
+          </article>
+        </div>
         <aside class="map-side" id="map-side">
-          <p class="side-hint">Выберите участок на карте</p>
+          <p class="side-hint">Нажмите цену на карте — откроется участок</p>
           <div id="side-list" class="side-list"></div>
         </aside>
       </div>
@@ -126,30 +146,7 @@
     <a href="https://github.com/pavelabramyan/zemlya" target="_blank" rel="noopener">GitHub</a>
   </footer>
 
-  <div class="modal" id="plot-modal" hidden>
-    <div class="modal-backdrop" data-close></div>
-    <article class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-      <button class="modal-close" type="button" data-close aria-label="Закрыть">×</button>
-      <div class="modal-gallery">
-        <img id="modal-photo" alt="Спутниковый снимок участка" />
-        <div class="gallery-thumbs" id="modal-thumbs"></div>
-      </div>
-      <div class="modal-body">
-        <p class="modal-region" id="modal-region"></p>
-        <h3 id="modal-title"></h3>
-        <p class="modal-price" id="modal-price"></p>
-        <dl class="specs" id="modal-specs"></dl>
-        <p class="modal-desc" id="modal-desc"></p>
-        <div class="modal-actions">
-          <a class="btn btn-primary" id="modal-cta" href="tel:+79295154970">Позвонить</a>
-          <a class="btn btn-tg" href="https://t.me/pavelabramyan" target="_blank" rel="noopener">Telegram</a>
-          <a class="btn btn-ghost" id="modal-nspd" target="_blank" rel="noopener">НСПД / карта</a>
-        </div>
-      </div>
-    </article>
-  </div>
-
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="app.js?v=4"></script>
+  <script src="app.js?v=5"></script>
 </body>
 </html>
