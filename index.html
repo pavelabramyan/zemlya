@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="styles.css?v=3" />
+  <link rel="stylesheet" href="styles.css?v=4" />
 </head>
 <body>
   <header class="topbar">
@@ -20,7 +20,8 @@
       <a href="#map">Карта</a>
       <a href="#catalog">Каталог</a>
       <a href="#how">Как купить</a>
-      <a href="#contact" class="nav-cta">Связаться</a>
+      <a href="https://t.me/pavelabramyan" class="nav-tg" target="_blank" rel="noopener">Telegram</a>
+      <a href="tel:+79295154970" class="nav-cta">Связаться</a>
     </nav>
   </header>
 
@@ -107,24 +108,12 @@
 
     <section class="contact" id="contact">
       <div class="contact-card">
-        <h2>Забронировать участок</h2>
+        <h2>Связаться</h2>
         <p>Напишите кадастровый номер или регион — ответим по документам и условиям в тот же день.</p>
-        <form id="lead-form" class="lead-form">
-          <label>
-            Имя
-            <input name="name" type="text" required placeholder="Как к вам обращаться" />
-          </label>
-          <label>
-            Телефон или Telegram
-            <input name="contact" type="text" required placeholder="+7… или @username" />
-          </label>
-          <label>
-            Интересующий участок
-            <input name="plot" type="text" placeholder="Кадастровый номер или город" />
-          </label>
-          <button type="submit" class="btn btn-primary">Отправить заявку</button>
-        </form>
-        <p class="form-note" id="form-note" hidden>Заявка скопирована. Напишите её владельцу — ответим по документам.</p>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="tel:+79295154970">Позвонить +7 929 515-49-70</a>
+          <a class="btn btn-tg" href="https://t.me/pavelabramyan" target="_blank" rel="noopener">Telegram @pavelabramyan</a>
+        </div>
       </div>
     </section>
   </main>
@@ -152,7 +141,8 @@
         <dl class="specs" id="modal-specs"></dl>
         <p class="modal-desc" id="modal-desc"></p>
         <div class="modal-actions">
-          <a class="btn btn-primary" id="modal-cta" href="#contact">Хочу этот участок</a>
+          <a class="btn btn-primary" id="modal-cta" href="tel:+79295154970">Позвонить</a>
+          <a class="btn btn-tg" href="https://t.me/pavelabramyan" target="_blank" rel="noopener">Telegram</a>
           <a class="btn btn-ghost" id="modal-nspd" target="_blank" rel="noopener">НСПД / карта</a>
         </div>
       </div>
@@ -160,6 +150,6 @@
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="app.js?v=3"></script>
+  <script src="app.js?v=4"></script>
 </body>
 </html>
