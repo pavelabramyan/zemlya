@@ -476,11 +476,23 @@ button, select, input { font: inherit; }
 
 .leaflet-container { font: inherit; background: #d9e4d4; }
 
-.modal[hidden] { display: none; }
+/* Пока открыта карточка — карта не может перекрыть модалку */
+body.modal-open .map-shell,
+body.modal-open #leaflet-map,
+body.modal-open .leaflet-container,
+body.modal-open .leaflet-pane,
+body.modal-open .leaflet-top,
+body.modal-open .leaflet-bottom,
+body.modal-open .leaflet-control {
+  z-index: 0 !important;
+  pointer-events: none !important;
+}
+
+.modal[hidden] { display: none !important; }
 .modal {
   position: fixed;
   inset: 0;
-  z-index: 10000; /* выше Leaflet (pane ~400–700, controls ~1000) */
+  z-index: 2147483000 !important;
   display: grid;
   place-items: center;
   padding: 18px;
