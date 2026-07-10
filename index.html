@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="styles.css?v=5" />
+  <link rel="stylesheet" href="styles.css?v=6" />
 </head>
 <body>
   <header class="topbar">
@@ -20,8 +20,9 @@
       <a href="#map">Карта</a>
       <a href="#catalog">Каталог</a>
       <a href="#how">Как купить</a>
+      <a href="tel:+79295154970" class="nav-phone">+7 929 515-49-70</a>
       <a href="https://t.me/pavelabramyan" class="nav-tg" target="_blank" rel="noopener">Telegram</a>
-      <a href="tel:+79295154970" class="nav-cta">Связаться</a>
+      <a href="tel:+79295154970" class="nav-cta">Позвонить</a>
     </nav>
   </header>
 
@@ -38,7 +39,7 @@
         </div>
         <dl class="hero-stats">
           <div><dt id="stat-count">49</dt><dd>участков</dd></div>
-          <div><dt id="stat-regions">16</dt><dd>регионов</dd></div>
+          <div><dt id="stat-regions">14</dt><dd>регионов</dd></div>
           <div><dt id="stat-value">11 млн ₽</dt><dd>кадастровая стоимость</dd></div>
         </dl>
       </div>
@@ -48,7 +49,7 @@
       <div class="map-head">
         <div>
           <h2>Карта участков</h2>
-          <p>Нажмите на цену — карта приблизит участок, покажет жёлтый контур и карточку прямо на карте.</p>
+          <p>Нажмите на цену — карта приблизит локацию, покажет ориентировочный жёлтый контур и карточку на карте.</p>
         </div>
         <div class="map-filters">
           <label class="filter">
@@ -82,8 +83,9 @@
               <p class="map-card-price" id="map-card-price"></p>
               <dl class="specs" id="map-card-specs"></dl>
               <p class="map-card-desc" id="map-card-desc"></p>
+              <p class="map-card-note" id="map-card-note"></p>
               <div class="map-card-actions">
-                <a class="btn btn-primary" href="tel:+79295154970">Позвонить</a>
+                <a class="btn btn-primary" href="tel:+79295154970">Позвонить +7 929 515-49-70</a>
                 <a class="btn btn-tg" href="https://t.me/pavelabramyan" target="_blank" rel="noopener">Telegram</a>
                 <a class="btn btn-ghost" id="map-card-nspd" target="_blank" rel="noopener">НСПД</a>
               </div>
@@ -147,6 +149,6 @@
   </footer>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="app.js?v=5"></script>
+  <script src="app.js?v=6"></script>
 </body>
 </html>
