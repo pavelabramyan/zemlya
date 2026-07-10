@@ -14,8 +14,22 @@
     return `${v.toLocaleString("ru-RU")} ₽`;
   };
 
-  const placeLabel = (p) =>
-    p.settlement || p.place || p.geo_name || p.region || "Участок";
+  const placeLabel = (p) => {
+    const candidates = [p.settlement, p.geo_name, p.place, p.region];
+    for (const raw of candidates) {
+      const s = String(raw || "").trim();
+      if (!s) continue;
+      if (/\d+:\d+/.test(s)) continue;
+      if (s.includes(",")) {
+        const parts = s.split(/[,\n]/).map((x) => x.trim()).filter(Boolean);
+        for (let i = parts.length - 1; i >= 0; i -= 1) {
+          if (parts[i] && !/\d+:\d+/.test(parts[i]) && parts[i].length > 2) return parts[i];
+        }
+      }
+      return s;
+    }
+    return "Участок";
+  };
 
   const titleOf = (p) => {
     const area = p.area_sotka
@@ -44,6 +58,7 @@
     specs: document.getElementById("map-card-specs"),
     desc: document.getElementById("map-card-desc"),
     nspd: document.getElementById("map-card-nspd"),
+    note: document.getElementById("map-card-note"),
     statCount: document.getElementById("stat-count"),
     statRegions: document.getElementById("stat-regions"),
     statValue: document.getElementById("stat-value"),
@@ -67,11 +82,11 @@
       className: "avito-marker-wrap",
       html: `<div class="avito-pin${active ? " is-active" : ""}"><span>${label}</span></div>`,
       iconSize: [1, 1],
-      iconAnchor: [0, 0],
+      iconAnchor: [40, 28],
     });
   }
 
-  /** Приближённый контур участка по площади (квадрат вокруг точки). */
+  /** Ориентировочный контур по площади (не кадастровая граница). */
   function plotPolygon(plot) {
     const lat = Number(plot.lat);
     const lon = Number(plot.lon);
@@ -79,7 +94,6 @@
     const side = Math.sqrt(area);
     const dLat = side / 111320 / 2;
     const dLon = side / (111320 * Math.cos((lat * Math.PI) / 180)) / 2;
-    // чуть вытянутый прямоугольник «как участок»
     const kx = 1.15;
     const ky = 0.9;
     return [
@@ -137,11 +151,12 @@
     els.sideList.innerHTML = list
       .map((p) => {
         const img = p.photos?.[0]?.url || "";
+        const est = p.area_estimated ? '<span class="badge-est">≈ площадь</span>' : "";
         return `
         <article class="side-item${p.cadastre === activeId ? " active" : ""}" data-id="${p.cadastre}">
           <img src="${img}" alt="" loading="lazy" />
           <div>
-            <h3>${titleOf(p)}</h3>
+            <h3>${titleOf(p)} ${est}</h3>
             <div class="side-meta">${(p.region || "").trim() || "Россия"} · ${p.cadastre}</div>
             <div class="price-tag">${money(p.cadastre_cost_num)}</div>
           </div>
@@ -155,11 +170,13 @@
     els.catalog.innerHTML = list
       .map((p) => {
         const img = p.photos?.[0]?.url || "";
+        const est = p.area_estimated ? '<span class="badge-est">площадь ориентировочная</span>' : "";
         return `
         <article class="catalog-card" data-id="${p.cadastre}">
           <img src="${img}" alt="Спутник: ${titleOf(p)}" loading="lazy" />
           <div class="body">
             <h3>${titleOf(p)}</h3>
+            ${est}
             <div class="card-meta">${(p.region || "").trim() || "Россия"}<br>${p.cadastre}</div>
             <div class="price-tag">${money(p.cadastre_cost_num)}</div>
           </div>
@@ -176,14 +193,25 @@
     els.photo.src = plot.photos?.[0]?.url || "";
     els.photo.alt = `Спутник: ${titleOf(plot)}`;
     els.nspd.href = plot.nspd_url || plot.pkk_url || "#";
+
+    const areaText = plot.area_sotka
+      ? `${String(plot.area_sotka).replace(/\.0$/, "")} сот. (${Math.round(plot.area_m2)} м²)${plot.area_estimated ? " · ориентир." : ""}`
+      : "—";
+
     els.specs.innerHTML = [
       ["Кадастровый номер", plot.cadastre],
-      ["Площадь", plot.area_sotka ? `${String(plot.area_sotka).replace(/\.0$/, "")} сот. (${Math.round(plot.area_m2)} м²)` : "—"],
+      ["Площадь", areaText],
       ["Кадастровая стоимость", money(plot.cadastre_cost_num)],
-      ["Координаты", `${Number(plot.lat).toFixed(5)}, ${Number(plot.lon).toFixed(5)}`],
+      ["Локация", placeLabel(plot)],
     ]
       .map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`)
       .join("");
+
+    if (els.note) {
+      els.note.textContent = plot.area_estimated
+        ? "Жёлтый контур и площадь — ориентировочные. Точные границы и метраж подтвердим по ЕГРН / НСПД."
+        : "Жёлтый контур на карте ориентировочный (по площади). Точные границы — в НСПД / выписке ЕГРН.";
+    }
   }
 
   function openPlot(plot) {
@@ -241,7 +269,6 @@
     });
 
     map.on("click", (e) => {
-      // клик по пустой карте закрывает карточку, если не попали в полигон
       if (plotLayer && plotLayer.getBounds().contains(e.latlng)) return;
       if (activeId) closePlot();
     });
