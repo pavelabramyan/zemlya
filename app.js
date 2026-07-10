@@ -181,6 +181,7 @@
       .join("");
 
     els.modal.hidden = false;
+    document.body.classList.add("modal-open");
     document.body.style.overflow = "hidden";
 
     const marker = markers.get(plot.cadastre);
@@ -189,6 +190,7 @@
 
   function closeModal() {
     els.modal.hidden = true;
+    document.body.classList.remove("modal-open");
     document.body.style.overflow = "";
   }
 
